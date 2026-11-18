@@ -1,0 +1,11 @@
+global using Aptison.Booking.Domain.EntityAbstractions;
+global using Aptison.Booking.Domain.Entities.Appointments;
+global using Aptison.Booking.Domain.Entities.Authorization;
+global using Aptison.Booking.Domain.Entities.Companies;
+global using Aptison.Booking.Domain.Entities.Places;
+global using Aptison.Booking.Domain.Entities.Reference;
+global using Aptison.Booking.Domain.Entities.Services;
+global using Aptison.Booking.Domain.Entities.Staff;
+global using Aptison.Booking.Domain.Entities.System;
+global using Aptison.Booking.Domain.Entities.Translations;
+global using Aptison.Booking.Domain.Entities.Users;

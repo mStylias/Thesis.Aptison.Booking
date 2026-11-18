@@ -402,8 +402,3 @@ FodyWeavers.xsd
 .env
 !.env.example
 
-# Claude skills symlinks
-/.claude/skills/
-
-# Claude Code instructions symlink to AGENTS.md
-/CLAUDE.md

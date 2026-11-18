@@ -1,0 +1,33 @@
+<Solution>
+  <Project Path="docker-compose.dcproj" />
+  <Folder Name="/libraries/">
+    <Project Path="../Synax/src/Libraries/Synax.AspNetCore/Synax.AspNetCore.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore/Synax.EntityFrameworkCore.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.AspNetCore/Synax.EntityFrameworkCore.AspNetCore.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.Mapper/Synax.EntityFrameworkCore.Mapper.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.Mediator/Synax.EntityFrameworkCore.Mediator.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.OData/Synax.EntityFrameworkCore.OData.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.OData.Results/Synax.EntityFrameworkCore.OData.Results.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.EntityFrameworkCore.Testing/Synax.EntityFrameworkCore.Testing.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.Identity/Synax.Identity.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.Mapper/Synax.Mapper.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.Mediator/Synax.Mediator.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.Modules/Synax.Modules.csproj" />
+    <Project Path="../Synax/src/Libraries/Synax.Results/Synax.Results.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Aptison.Booking.Application/Aptison.Booking.Application.csproj" />
+    <Project Path="src/Aptison.Booking.Domain/Aptison.Booking.Domain.csproj" />
+    <Project Path="src/Aptison.Booking.Infrastructure/Aptison.Booking.Infrastructure.csproj" />
+    <Project Path="src/Aptison.Booking.Api/Aptison.Booking.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Aptison.Booking.Tests.Common/Aptison.Booking.Tests.Common.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/Aptison.Booking.Application.IntegrationTests/Aptison.Booking.Application.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/Aptison.Booking.Application.UnitTests/Aptison.Booking.Application.UnitTests.csproj" />
+  </Folder>
+</Solution>

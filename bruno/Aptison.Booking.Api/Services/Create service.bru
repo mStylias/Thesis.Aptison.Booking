@@ -1,0 +1,44 @@
+meta {
+  name: Create service
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{base_api_url}}/v1/services
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id: 
+}
+
+body:json {
+  {
+    "categoryId": null,
+    "price": 18.50,
+    "durationMinutes": 30,
+    "bufferBeforeMinutes": 0,
+    "bufferAfterMinutes": 5,
+    "isActive": true,
+    "translations": [
+      { "languageCode": "el", "name": "Κούρεμα με ψαλίδι", "description": null },
+      { "languageCode": "en", "name": "Scissor cut", "description": null }
+    ],
+    "staff": [
+      { "staffMemberId": "{{staffMemberId}}", "customPrice": null, "customDurationMinutes": null }
+    ]
+  }
+}
+
+docs {
+  services:create. 201. Nobody is assigned unless listed. An own value equal to the base is stored as null.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

@@ -1,0 +1,35 @@
+meta {
+  name: Update member
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "jobTitleCode": "barber",
+    "isBookable": true,
+    "joinedAt": "2025-03-01",
+    "roleIds": ["10000000-0000-4000-8000-000000000005"]
+  }
+}
+
+docs {
+  members:update, and roles:assign when the roles change. roleIds is a full replace.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

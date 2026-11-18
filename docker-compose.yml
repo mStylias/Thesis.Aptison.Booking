@@ -1,0 +1,341 @@
+name: aptison-booking
+
+# Self-hosted SigNoz stack (ClickHouse, OTel collector, query service + UI).
+# Vendored from SigNoz's official deploy files under ./signoz; brought up together
+# with the app so a single `docker compose up` runs everything.
+include:
+  - path: signoz/docker/docker-compose.yaml
+
+services:
+  api:
+    image: aptison-booking-api:dev
+    # Build on every `up`. The default reuses the tag whenever it exists, so an edit to
+    # appsettings.Development.json never reaches the container until someone rebuilds by hand.
+    pull_policy: build
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # See the `debug` stage; production builds `final`.
+      target: debug
+      args:
+        BUILD_CONFIGURATION: Debug
+      additional_contexts:
+        synax: ../Synax
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: 8080
+      ConnectionStrings__AptisonBookingDb: Host=postgres;Port=5432;Database=aptison_booking_db_dev;Username=admin;Password=change-me-db-password
+      ConnectionStrings__Redis: redis:6379
+      # Metadata is fetched over the compose network; both issuer spellings are accepted so a
+      # token minted through localhost:7030 (browser, Scalar) validates here too.
+      Keycloak__Authority: http://keycloak:8080/realms/koureia
+      Keycloak__Audience: koureia-api
+      Keycloak__ValidIssuers__0: http://keycloak:8080/realms/koureia
+      Keycloak__ValidIssuers__1: http://localhost:7030/realms/koureia
+      Keycloak__RequireHttpsMetadata: "false"
+      # Outbound this time, and write-capable: the Admin API, used to flip emailVerified once a
+      # person enters their code and to delete accounts that never do. The service account for
+      # koureia-api already holds manage-users, view-users and query-users in the realm export.
+      # The secret is the realm export's placeholder; a real deployment supplies its own.
+      Keycloak__Admin__BaseUrl: http://keycloak:8080
+      Keycloak__Admin__Realm: koureia
+      Keycloak__Admin__ClientId: koureia-api
+      Keycloak__Admin__ClientSecret: ${KEYCLOAK_ADMIN_CLIENT_SECRET:-change-me-keycloak-api-client-secret}
+      # The API's own SMTP, which is not Keycloak's: Keycloak sends password-reset and
+      # identity-provider-link mail through the realm's smtpServer block, and this sends the one
+      # message Keycloak cannot produce — the numeric verification code.
+      Smtp__Host: mailpit
+      Smtp__Port: "1025"
+      Smtp__UseStartTls: "false"
+      Smtp__FromAddress: no-reply@mail.koureia.gr
+      Smtp__FromDisplayName: Aptison Booking
+      # The frame around the API's own mail. BrandName empty drops the wordmark rather than
+      # guessing one; AppUrl must be absolute or the logo is skipped, because a relative src in an
+      # email resolves against the mail client.
+      Email__BrandName: Koureia
+      Email__AppUrl: http://localhost:6100
+      # Where Gmail and Apple Mail post a reminder's one-click unsubscribe. On localhost it cannot
+      # be reached from their servers; the footer link to the web app's page still works.
+      Email__ApiUrl: http://localhost:7000
+      # Placeholders, like the Keycloak secret above. Empty VAPID keys turn push off. A real
+      # deployment supplies its own values in .env and never changes them: a new secret breaks every unsubscribe link already sent, and new VAPID
+      # keys make every customer turn push on again.
+      Reminders__UnsubscribeSecret: ${REMINDERS_UNSUBSCRIBE_SECRET:-change-me-reminders-unsubscribe-secret-32-chars-min}
+      WebPush__PublicKey: ${WEBPUSH_PUBLIC_KEY:-}
+      WebPush__PrivateKey: ${WEBPUSH_PRIVATE_KEY:-}
+      # On since verifyEmail went false, or a squatted address is held forever. DryRun logs what it
+      # would delete and deletes nothing — turn it off deliberately, after reading a cycle's log.
+      EmailVerification__Sweeper__Enabled: "true"
+      EmailVerification__Sweeper__DryRun: "true"
+      # The address that receives the global super_admin role the first time it signs in. Comes
+      # from .env because it is authority expressed as configuration: it does not belong in a
+      # committed appsettings file, and it differs per environment. Blank leaves the platform with
+      # no superadmin, which is the correct default for a machine that is not yours.
+      UserProvisioning__SuperAdminEmails__0: ${SUPERADMIN_EMAIL:-}
+      # The geocoder behind the public location control. From .env because it is a paid
+      # credential: it must never reach a browser or a build artifact, which is the whole reason
+      # the provider is called from the API rather than from the page. Blank leaves place search
+      # answering 503 and the barbershop list ordering from the configured default, which is the
+      # correct behaviour on a machine with no key.
+      PlaceKit__ApiKey: ${PLACEKIT_API_KEY:-}
+      # Uploads go over the compose network; the URLs handed to browsers stay on localhost.
+      Storage__ServiceUrl: http://rustfs:9000
+      Storage__Bucket: aptison-booking
+      Storage__AccessKey: rustfsadmin
+      Storage__SecretKey: rustfsadmin-dev-secret
+      Storage__PublicBaseUrl: http://localhost:7060/aptison-booking
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://signoz-otel-collector:4317
+      OTEL_RESOURCE_ATTRIBUTES: service.name=aptison-booking-api,deployment.environment=development
+    ports:
+      - "7000:8080"
+    networks:
+      - default
+      - signoz-net
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      keycloak:
+        condition: service_healthy
+      # Not just "Keycloak is up" but "the realm has been applied". The API
+      # fetches JWKS from {Authority}/.well-known/openid-configuration, and that
+      # 404s until the realm exists.
+      keycloak-config-cli:
+        condition: service_completed_successfully
+      otel-collector:
+        condition: service_started
+      # Verification codes are staged in the outbox and dispatched immediately after commit, so a
+      # missing SMTP server at boot means the first registration's mail retries rather than sends.
+      mailpit:
+        condition: service_started
+      rustfs-setup:
+        condition: service_completed_successfully
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
+    cap_drop:
+      - ALL
+    restart: unless-stopped
+
+  postgres:
+    image: aptison-booking-postgres:18-3.6-partman
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    command:
+      - postgres
+      - -c
+      - shared_preload_libraries=pg_partman_bgw
+      - -c
+      - pg_partman_bgw.dbname=aptison_booking_db_dev
+      - -c
+      - pg_partman_bgw.role=admin
+      - -c
+      - pg_partman_bgw.interval=3600
+    environment:
+      POSTGRES_DB: aptison_booking_db_dev
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: change-me-db-password
+    ports:
+      - "7010:5432"
+    volumes:
+      - postgres-18-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+  redis:
+    image: redis:8.6.2-alpine3.23
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "7020:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+    restart: unless-stopped
+
+  redis-insight:
+    # Connects to redis://default@redis:6379 
+    image: redis/redisinsight:3.2.0
+    ports:
+      - "7021:5540"
+    volumes:
+      - redis-insight-data:/data
+    depends_on:
+      redis:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+  
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.6.1
+    container_name: keycloak
+    environment:
+      - KC_BOOTSTRAP_ADMIN_USERNAME=admin
+      - KC_BOOTSTRAP_ADMIN_PASSWORD=admin
+      - KC_HEALTH_ENABLED=true
+    ports:
+      - '7030:8080'
+    volumes:
+      - keycloak-data:/opt/keycloak/data
+      # The Koureia login theme JAR. `Koureia.Web`'s `pnpm run deploy:keycloak-theme`
+      # puts it here with `docker cp`, which writes into the container and not into a
+      # volume — so recreating the container used to delete it while the realm kept
+      # naming the theme in the database, and Keycloak silently fell back to its own
+      # login pages. A volume outlives `--force-recreate`; only `down -v` clears it.
+      - keycloak-providers:/opt/keycloak/providers
+    # No --import-realm. The realm is applied by the keycloak-config-cli service
+    # below, which converges an *existing* realm rather than importing once and
+    # silently skipping forever after. See that service for the reasoning.
+    command: start-dev
+    healthcheck:
+      # Since Keycloak 25 the health endpoints live on the management port 9000,
+      # not 8080, and the image ships neither curl nor wget — but /bin/sh is bash,
+      # so bash's /dev/tcp is the probe. /health/ready answers 200 only once the
+      # realm subsystem can serve JWKS, which is exactly the condition the API
+      # needs: without this the API used condition: service_started and could come
+      # up before there were any signing keys to fetch.
+      test:
+        - CMD-SHELL
+        - "exec 3<>/dev/tcp/127.0.0.1/9000; printf 'GET /health/ready HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3; grep -q '200 OK' <&3"
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    restart: unless-stopped
+
+  # Realm-as-code, for real this time.
+  #
+  # `start-dev --import-realm` imports at first boot and skips any realm that
+  # already exists. Because the H2 dev database lives in the keycloak-data
+  # volume, the realm survives restarts — so every edit to realm-export.json
+  # after the first `up` did nothing, and the only way to apply one was
+  # `docker compose down -v`. That is the single most common "I changed the realm
+  # file and nothing happened".
+  #
+  # keycloak-config-cli applies the file to a live realm on every `up`, creating
+  # it if absent and converging it if present, which is what makes the file a
+  # source of truth instead of a first-boot snapshot. It also substitutes
+  # $(env:...) references, which native import does not reliably do — that is how
+  # the Google credentials get in without being committed.
+  #
+  # It runs to completion and exits; the API waits for that exit, not merely for
+  # Keycloak to be listening.
+  keycloak-config-cli:
+    image: adorsys/keycloak-config-cli:6.5.1-26.5.5
+    depends_on:
+      keycloak:
+        condition: service_healthy
+    environment:
+      KEYCLOAK_URL: http://keycloak:8080
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+      KEYCLOAK_SSLVERIFY: "false"
+      IMPORT_FILES_LOCATIONS: /config/realm-export.json
+      # Off by default; without it the $(env:...) references in the realm file
+      # are written to Keycloak verbatim and Google sign-in fails with a
+      # confusing invalid_client from Google rather than from here.
+      IMPORT_VARSUBSTITUTION_ENABLED: "true"
+      # Read from .env (see .env.example). Empty is tolerated: everything else in
+      # the realm still applies and only Google sign-in is inert.
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      # The Node server and Keycloak must use the same BFF secret. Do not put the secret
+      # in the realm export. Missing BFF values stop Compose before it changes the realm.
+      KOUREIA_BFF_CLIENT_SECRET: ${KOUREIA_BFF_CLIENT_SECRET:?Set KOUREIA_BFF_CLIENT_SECRET in .env}
+      KOUREIA_BFF_REDIRECT_URI: ${KOUREIA_BFF_REDIRECT_URI:?Set KOUREIA_BFF_REDIRECT_URI in .env}
+    volumes:
+      - ./keycloak/realm-export.json:/config/realm-export.json:ro
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+
+  # Development mail sink. Keycloak's password reset and its account-linking
+  # confirmation (which fires when someone who registered with a password later
+  # signs in with Google) both send email; with no SMTP server those flows
+  # dead-end rather than fail, which is worse. Nothing here ever leaves the host:
+  # Mailpit accepts everything and shows it in a web UI.
+  mailpit:
+    image: axllent/mailpit:v1.28.1
+    ports:
+      # 7040 is SigNoz's UI (see the included signoz compose), hence 7050.
+      - "7050:8025"   # web UI
+      - "7051:1025"   # SMTP, for anything on the host that wants it
+    environment:
+      MP_MAX_MESSAGES: 500
+      MP_SMTP_AUTH_ACCEPT_ANY: "true"
+      MP_SMTP_AUTH_ALLOW_INSECURE: "true"
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  # S3-compatible storage for uploaded photos. Production uses another provider; only the
+  # Storage section changes.
+  rustfs:
+    image: rustfs/rustfs:1.0.1
+    environment:
+      RUSTFS_ACCESS_KEY: rustfsadmin
+      RUSTFS_SECRET_KEY: rustfsadmin-dev-secret
+      RUSTFS_CONSOLE_ENABLE: "true"
+    ports:
+      - "7060:9000"   # S3
+      - "7061:9001"   # console, at /rustfs/console/
+    volumes:
+      - rustfs-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://127.0.0.1:9000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  # Creates the bucket and lets anyone read public/, then exits. Safe to rerun.
+  rustfs-setup:
+    image: amazon/aws-cli:2.37.9
+    depends_on:
+      rustfs:
+        condition: service_healthy
+    environment:
+      AWS_ACCESS_KEY_ID: rustfsadmin
+      AWS_SECRET_ACCESS_KEY: rustfsadmin-dev-secret
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ENDPOINT_URL: http://rustfs:9000
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        aws s3api head-bucket --bucket aptison-booking 2>/dev/null ||
+          aws s3api create-bucket --bucket aptison-booking || exit 1
+        aws s3api put-bucket-policy --bucket aptison-booking --policy '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":["*"]},"Action":["s3:GetObject"],"Resource":["arn:aws:s3:::aptison-booking/public/*"]}]}'
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+
+volumes:
+  postgres-18-data:
+  redis-data:
+  redis-insight-data:
+  keycloak-data:
+  keycloak-providers:
+  rustfs-data:
+
+networks:
+  # Defined by the included SigNoz compose (signoz/docker/docker-compose.yaml);
+  # declared here so the api service can attach to it and reach the collector.
+  signoz-net:
+    name: signoz-net

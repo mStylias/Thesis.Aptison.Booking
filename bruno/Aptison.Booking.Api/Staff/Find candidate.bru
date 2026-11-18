@@ -1,0 +1,32 @@
+meta {
+  name: Find candidate
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{base_api_url}}/v1/staff/candidates
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "email": "new.barber@example.com"
+  }
+}
+
+docs {
+  members:invite. The exact address, any case; one person or 404. Rate-limited per caller.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

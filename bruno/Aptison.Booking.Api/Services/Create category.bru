@@ -1,0 +1,35 @@
+meta {
+  name: Create category
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{base_api_url}}/v1/services/categories?languageCode=el
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id: 
+}
+
+body:json {
+  {
+    "translations": [
+      { "languageCode": "el", "name": "Παιδικά" },
+      { "languageCode": "en", "name": "Kids" }
+    ]
+  }
+}
+
+docs {
+  services:update. 201. Owned by the shop, sorted after every category it sees. 1 to 100 characters per name.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

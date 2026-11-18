@@ -1,0 +1,34 @@
+meta {
+  name: Update services
+  type: http
+  seq: 10
+}
+
+put {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/services
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "services": [
+      { "serviceId": "{{serviceId}}", "customPrice": 18.00, "customDurationMinutes": null }
+    ]
+  }
+}
+
+docs {
+  staff:manage_services. A full replace of what the member offers.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

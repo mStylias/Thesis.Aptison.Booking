@@ -1,0 +1,26 @@
+meta {
+  name: Options
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base_api_url}}/v1/staff/options?languageCode=el
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+docs {
+  members:read. Shop hours, job titles, the roles the caller can see and every live service.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

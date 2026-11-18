@@ -1,0 +1,39 @@
+meta {
+  name: Browse barbershops
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{base_api_url}}/v1/companies?languageCode=el
+  body: none
+  auth: none
+}
+
+params:query {
+  languageCode: el
+  ~search: κουρειο
+  ~date: 2026-09-09
+  ~from: 09:00
+  ~to: 12:00
+  ~serviceIds: 
+  ~categoryIds: 
+  ~latitude: 37.97157785594371
+  ~longitude: 23.725726869039587
+  ~businessTypeCode: barbershop
+}
+
+docs {
+  Anonymous — no token. Every parameter is optional; the disabled ones above are the
+  filters, left off so the default call returns the whole list.
+
+  search       folded to ignore case and accents, matched against every translated name
+  date         local date at the company
+  from / to    local time range, either one usable without a date
+  serviceIds   a service belongs to one company, so this narrows to that company
+  categoryIds  the cross-shop filter — platform categories are the shared ones
+  latitude
+  longitude    both or neither; the configured origin fills in when absent
+
+  Unpaged and uncapped: every match comes back, ordered by distance.
+}

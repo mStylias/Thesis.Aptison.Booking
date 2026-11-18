@@ -1,0 +1,36 @@
+meta {
+  name: Update time off
+  type: http
+  seq: 14
+}
+
+put {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/time-off/{{timeOffId}}
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "startsOn": "2026-11-02",
+    "endsOn": "2026-11-02",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "reason": "Dentist"
+  }
+}
+
+docs {
+  As creating it.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

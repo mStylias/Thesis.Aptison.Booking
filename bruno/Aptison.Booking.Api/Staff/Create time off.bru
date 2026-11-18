@@ -1,0 +1,36 @@
+meta {
+  name: Create time off
+  type: http
+  seq: 13
+}
+
+post {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/time-off
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "startsOn": "2026-11-02",
+    "endsOn": "2026-11-06",
+    "startTime": null,
+    "endTime": null,
+    "reason": "Holiday"
+  }
+}
+
+docs {
+  staff:manage_timeoff, or staff:manage_own_timeoff on your own row. Both times null is whole days.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

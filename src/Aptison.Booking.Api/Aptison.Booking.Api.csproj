@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>5600ca09-d2f3-4bac-9077-63a210e877a6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.19.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.19.1" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.19.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.19.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.StackExchangeRedis" Version="1.19.0-beta.1" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.17.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.AspNetCore\Synax.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.EntityFrameworkCore.AspNetCore\Synax.EntityFrameworkCore.AspNetCore.csproj" />
+    <!--
+      OData lives at the endpoint edge only: handlers return the query deferred as
+      ISynaxQuery<TDto>, which Application can already name, and this assembly applies the
+      client's $filter/$orderby/... to it.
+    -->
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.EntityFrameworkCore.OData\Synax.EntityFrameworkCore.OData.csproj" />
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.EntityFrameworkCore.OData.Results\Synax.EntityFrameworkCore.OData.Results.csproj" />
+    <!--
+      Explicit rather than transitive through Application: this assembly names IMapper and
+      MapperProfile itself (Endpoints/V1/Auth/AuthenticatedSubjectProfile.cs), and a direct
+      dependency should not rest on another project's reference list staying as it is. Already in
+      the Dockerfile's restore stage, so it costs nothing.
+    -->
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.Mapper\Synax.Mapper.csproj" />
+    <ProjectReference Include="..\Aptison.Booking.Application\Aptison.Booking.Application.csproj" />
+    <ProjectReference Include="..\Aptison.Booking.Infrastructure\Aptison.Booking.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Endpoints\V1\Auth\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- EndpointPermissionGuard.GetViolation, which is otherwise only reachable by booting the host. -->
+    <InternalsVisibleTo Include="Aptison.Booking.Application.IntegrationTests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+meta {
+  name: Update work hours
+  type: http
+  seq: 11
+}
+
+put {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/work-hours
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "workHours": [
+      { "dayOfWeek": 1, "startTime": "09:00", "endTime": "13:00" },
+      { "dayOfWeek": 1, "startTime": "14:00", "endTime": "18:00" }
+    ]
+  }
+}
+
+docs {
+  staff:manage_schedule, or staff:manage_own_schedule on your own row. A full replace of the week.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

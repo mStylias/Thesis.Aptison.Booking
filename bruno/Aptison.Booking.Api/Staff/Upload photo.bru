@@ -1,0 +1,30 @@
+meta {
+  name: Upload photo
+  type: http
+  seq: 16
+}
+
+put {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/photo
+  body: multipartForm
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:multipart-form {
+  file: @file()
+}
+
+docs {
+  members:update. JPEG, PNG or WebP up to 10 MB, stored as a 512 x 512 WebP. Pick the file first.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

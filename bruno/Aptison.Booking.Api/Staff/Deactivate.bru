@@ -1,0 +1,26 @@
+meta {
+  name: Deactivate
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/deactivate
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+docs {
+  members:remove. 409 with "count" while the member has upcoming appointments.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

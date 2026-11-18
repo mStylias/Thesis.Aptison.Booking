@@ -1,0 +1,22 @@
+meta {
+  name: All barbershops (cached)
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base_api_url}}/v1/companies/all
+  body: none
+  auth: none
+}
+
+params:query {
+  ~languageCode: el
+}
+
+docs {
+  Anonymous. Every barbershop ordered by distance from the configured origin
+  (Athens centre), cached whole under companies:all:v1:<language> — HybridCache, in-process over Redis.
+
+  The language is part of the cache key, so each one is cached separately.
+}

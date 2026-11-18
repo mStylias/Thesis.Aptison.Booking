@@ -1,0 +1,43 @@
+meta {
+  name: Add member
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{base_api_url}}/v1/staff
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+body:json {
+  {
+    "email": "new.barber@example.com",
+    "jobTitleCode": "barber",
+    "isBookable": true,
+    "joinedAt": null,
+    "roleIds": ["10000000-0000-4000-8000-000000000003"],
+    "services": [
+      { "serviceId": "{{serviceId}}", "customPrice": null, "customDurationMinutes": null }
+    ],
+    "workHours": [
+      { "dayOfWeek": 1, "startTime": "09:00", "endTime": "17:00" },
+      { "dayOfWeek": 2, "startTime": "09:00", "endTime": "17:00" }
+    ]
+  }
+}
+
+docs {
+  members:invite, and roles:assign when roleIds is not empty. The person must already have an account.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

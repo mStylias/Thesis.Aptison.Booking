@@ -1,0 +1,26 @@
+meta {
+  name: Delete category
+  type: http
+  seq: 9
+}
+
+delete {
+  url: {{base_api_url}}/v1/services/categories/{{categoryId}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id: 
+}
+
+docs {
+  services:update. Its services become uncategorised. 403 for a platform category.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="4.15.0" />
+    <PackageReference Include="TUnit.Core" Version="1.69.24" />
+    <PackageReference Include="TUnit.Assertions" Version="1.69.24" />
+    <PackageReference Include="TUnit.Mocks" Version="1.69.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      Domain and Application only. A transitive Infrastructure reference would let a unit test name
+      BookingDbContext, which is the one thing the layering exists to prevent; the database harness
+      that does need it lives in the integration project.
+    -->
+    <ProjectReference Include="..\..\src\Aptison.Booking.Application\Aptison.Booking.Application.csproj" />
+    <ProjectReference Include="..\..\src\Aptison.Booking.Domain\Aptison.Booking.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.EntityFrameworkCore.Mapper\Synax.EntityFrameworkCore.Mapper.csproj" />
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.EntityFrameworkCore.Testing\Synax.EntityFrameworkCore.Testing.csproj" />
+    <ProjectReference Include="..\..\..\Synax\src\Libraries\Synax.Identity\Synax.Identity.csproj" />
+  </ItemGroup>
+
+</Project>

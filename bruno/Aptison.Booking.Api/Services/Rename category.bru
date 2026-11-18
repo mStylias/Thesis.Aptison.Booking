@@ -1,0 +1,35 @@
+meta {
+  name: Rename category
+  type: http
+  seq: 8
+}
+
+put {
+  url: {{base_api_url}}/v1/services/categories/{{categoryId}}?languageCode=el
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id: 
+}
+
+body:json {
+  {
+    "translations": [
+      { "languageCode": "el", "name": "Παιδικά" },
+      { "languageCode": "en", "name": "Kids" }
+    ]
+  }
+}
+
+docs {
+  services:update. 403 SERVICE_CATEGORY_NOT_OWNED for a platform category.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

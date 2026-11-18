@@ -1,0 +1,26 @@
+meta {
+  name: Get member
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+docs {
+  members:read. The drawer: profile, roles, services, hours, stats.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

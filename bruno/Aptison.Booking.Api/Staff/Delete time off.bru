@@ -1,0 +1,26 @@
+meta {
+  name: Delete time off
+  type: http
+  seq: 15
+}
+
+delete {
+  url: {{base_api_url}}/v1/staff/{{staffMemberId}}/time-off/{{timeOffId}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id:
+}
+
+docs {
+  As creating it.
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

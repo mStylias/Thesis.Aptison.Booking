@@ -1,0 +1,26 @@
+meta {
+  name: Grid
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{base_api_url}}/v1/services/odata?languageCode=el&$count=true&$top=20&$orderby=name
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+headers {
+  ~X-Company-Id: 
+}
+
+docs {
+  services:read. OData: $filter, $orderby, $top (max 100), $skip, $count, $search (folded name).
+
+  Needs a staff token holding that permission: set access_token in your local Bruno
+  environment. A superadmin also sends X-Company-Id to pick the shop.
+}

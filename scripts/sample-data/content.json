@@ -1,0 +1,3327 @@
+{
+ "shops": [
+  {
+   "key": "s01",
+   "name_el": "Λεπίδα & Λόγος",
+   "name_en": "Lepida & Logos Barber House",
+   "description_el": "Το Λεπίδα & Λόγος άνοιξε το 2014 σε ένα διατηρητέο ισόγειο της Υμηττού, λίγα βήματα από την πλατεία Βαρνάβα, και έγινε γρήγορα σημείο αναφοράς για το Παγκράτι. Έξι μπαρμπέρηδες δουλεύουν σε βάρδιες από νωρίς το πρωί ως αργά το βράδυ, με έμφαση στο ψαλίδι, τα καθαρά fade και το παραδοσιακό ξύρισμα με ζεστή πετσέτα. Κάθε ραντεβού ξεκινά με μια σύντομη κουβέντα για το στυλ και τελειώνει με styling και συμβουλές για το σπίτι. Ο χώρος συνδυάζει δρύινους πάγκους, vintage καρέκλες κουρείου και μια μικρή βιβλιοθήκη για όσους περιμένουν. Τα Σάββατα γεμίζουν από νωρίς, γι' αυτό κλείσε ραντεβού online μερικές μέρες πριν.",
+   "description_en": "Lepida & Logos opened in 2014 in a listed ground-floor space on Ymittou Street, a few steps from Varnava Square, and quickly became a Pangrati landmark. Six barbers work in shifts from early morning until late evening, with a focus on scissor work, clean fades and the traditional hot-towel shave. Every appointment starts with a short chat about style and ends with styling and advice for home. The space combines oak counters, vintage barber chairs and a small library for those waiting. Saturdays fill up early, so book online a few days ahead.",
+   "street_el": "Υμηττού 72",
+   "street_en": "Ymittou 72",
+   "neighborhood_el": "Παγκράτι",
+   "neighborhood_en": "Pangrati",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11633",
+   "lat": 37.9658,
+   "lon": 23.7484,
+   "phone": "+302107561842",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s02",
+   "name_el": "Ατελιέ Κουρέματος Αριστείδης",
+   "name_en": "Aristeidis Grooming Atelier",
+   "description_el": "Ατελιέ κουρέματος στην καρδιά του Κολωνακίου, με τρεις θέσεις και ραντεβού μόνο κατόπιν κράτησης. Ο Αριστείδης δουλεύει κυρίως με ψαλίδι και προσαρμόζει κάθε κούρεμα στο σχήμα του προσώπου. Η εμπειρία κλείνει με λούσιμο, styling και ένα ποτήρι ρακί για όσους το θέλουν.",
+   "description_en": "A grooming atelier in the heart of Kolonaki, with three chairs and appointments by booking only. Aristeidis works mainly with scissors and shapes every cut to the face. The visit ends with a wash, styling and a glass of raki for those who want one.",
+   "street_el": "Σκουφά 28",
+   "street_en": "Skoufa 28",
+   "neighborhood_el": "Κολωνάκι",
+   "neighborhood_en": "Kolonaki",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "10673",
+   "lat": 37.9793,
+   "lon": 23.7395,
+   "phone": "+302103618427",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s03",
+   "name_el": "Γραμμή Μηδέν",
+   "name_en": "Grammi Miden Barbers",
+   "description_el": "Νεανικό κουρείο στο Κουκάκι με ειδίκευση στα skin fade, τα taper και τα καθαρά line-up. Η ομάδα παρακολουθεί τις τάσεις και ανεβάζει κάθε εβδομάδα νέες δουλειές στο portfolio της.",
+   "description_en": "A young barbershop in Koukaki that specializes in skin fades, tapers and sharp line-ups. The team follows the trends and adds new work to its portfolio every week.",
+   "street_el": "Βεΐκου 45",
+   "street_en": "Veikou 45",
+   "neighborhood_el": "Κουκάκι",
+   "neighborhood_en": "Koukaki",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11742",
+   "lat": 37.9643,
+   "lon": 23.7258,
+   "phone": "+302109215364",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s04",
+   "name_el": "Το Γένι",
+   "name_en": "To Geni Beard Bar",
+   "description_el": "Μικρό beard bar στα Εξάρχεια, αφιερωμένο στα γένια κάθε μήκους. Σχήμα με ξυράφι, ζεστές πετσέτες, λάδια και βάλσαμα με φυσικά υλικά. Το κούρεμα υπάρχει, αλλά τα γένια είναι ο λόγος που έρχεται ο κόσμος.",
+   "description_en": "A small beard bar in Exarchia, devoted to beards of every length. Razor shaping, hot towels, oils and balms made with natural ingredients. Haircuts are on the menu, but beards are why people come.",
+   "street_el": "Θεμιστοκλέους 62",
+   "street_en": "Themistokleous 62",
+   "neighborhood_el": "Εξάρχεια",
+   "neighborhood_en": "Exarchia",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "10681",
+   "lat": 37.9852,
+   "lon": 23.7336,
+   "phone": "+302103830519",
+   "style": "beard",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s05",
+   "name_el": "Κουρείο της Δέσποινας",
+   "name_en": "Despina's Barbershop",
+   "description_el": "Η Δέσποινα κόβει μαλλιά στη Φωκίωνος Νέγρη πάνω από είκοσι χρόνια και ξέρει τους περισσότερους πελάτες με το μικρό τους όνομα. Κλασικά ανδρικά κουρέματα, προσεγμένο ξύρισμα και τιμές γειτονιάς.",
+   "description_en": "Despina has been cutting hair on Fokionos Negri for over twenty years and knows most of her customers by first name. Classic men's cuts, careful shaves and neighborhood prices.",
+   "street_el": "Φωκίωνος Νέγρη 34",
+   "street_en": "Fokionos Negri 34",
+   "neighborhood_el": "Κυψέλη",
+   "neighborhood_en": "Kypseli",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11361",
+   "lat": 37.9998,
+   "lon": 23.7398,
+   "phone": "+302108827045",
+   "style": "classic",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s06",
+   "name_el": "Κουρείο Τα Αδέρφια",
+   "name_en": "Ta Aderfia Barbershop",
+   "description_el": "Οικογενειακό κουρείο στο Χαλάνδρι από το 1978, που σήμερα το κρατά η δεύτερη γενιά. Τα αδέρφια Κωνσταντίνου κουρεύουν παππούδες, γονείς και εγγόνια στις ίδιες καρέκλες που αγόρασε ο πατέρας τους.",
+   "description_en": "A family barbershop in Chalandri since 1978, now run by the second generation. The Konstantinou brothers cut grandfathers, fathers and grandsons in the same chairs their father bought.",
+   "street_el": "Αγίας Παρασκευής 48",
+   "street_en": "Agias Paraskevis 48",
+   "neighborhood_el": "Χαλάνδρι",
+   "neighborhood_en": "Chalandri",
+   "city_el": "Χαλάνδρι",
+   "city_en": "Chalandri",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15234",
+   "lat": 38.0215,
+   "lon": 23.8005,
+   "phone": "+302106814273",
+   "style": "family",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s07",
+   "name_el": "Πόλος Barbers",
+   "name_en": "Polos Barbers",
+   "description_el": "Σύγχρονο κουρείο δίπλα στην κεντρική πλατεία του Αμαρουσίου, ιδανικό για ένα γρήγορο fade πριν ή μετά τη δουλειά. Ανοιχτό από τις 8 το πρωί, με online κράτηση και ελάχιστη αναμονή.",
+   "description_en": "A modern barbershop next to the main square of Marousi, ideal for a quick fade before or after work. Open from 8 in the morning, with online booking and very little waiting.",
+   "street_el": "Ερμού 18",
+   "street_en": "Ermou 18",
+   "neighborhood_el": "Μαρούσι",
+   "neighborhood_en": "Marousi",
+   "city_el": "Μαρούσι",
+   "city_en": "Marousi",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15124",
+   "lat": 38.0509,
+   "lon": 23.8068,
+   "phone": "+302108026391",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s08",
+   "name_el": "Αλμύρα Grooming Lounge",
+   "name_en": "Almyra Grooming Lounge",
+   "description_el": "Premium grooming lounge στο κέντρο της Γλυφάδας, με ατμόσφαιρα beach club και θέα στη Μεταξά. Κουρέματα, περιποίηση γενιών, μάσκες προσώπου και θεραπείες τριχωτού σε ένα χαλαρό, φωτεινό περιβάλλον.",
+   "description_en": "A premium grooming lounge in central Glyfada, with a beach-club feel and a view over Metaxa Street. Cuts, beard care, face masks and scalp treatments in a relaxed, bright setting.",
+   "street_el": "Μεταξά 22",
+   "street_en": "Metaxa 22",
+   "neighborhood_el": "Γλυφάδα",
+   "neighborhood_en": "Glyfada",
+   "city_el": "Γλυφάδα",
+   "city_en": "Glyfada",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "16674",
+   "lat": 37.8638,
+   "lon": 23.7526,
+   "phone": "+302108945120",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s09",
+   "name_el": "Κουρείο Πλάτανος",
+   "name_en": "Platanos Barbershop",
+   "description_el": "Κομψό κουρείο κάτω από τα πλατάνια της Κηφισιάς, με δερμάτινες πολυθρόνες και ήσυχη ατμόσφαιρα. Εξειδικεύεται στο κλασικό κούρεμα με ψαλίδι και στο grey blending για φυσικό αποτέλεσμα.",
+   "description_en": "An elegant barbershop under the plane trees of Kifisia, with leather armchairs and a quiet atmosphere. It specializes in classic scissor cuts and grey blending for a natural result.",
+   "street_el": "Κυριαζή 14",
+   "street_en": "Kyriazi 14",
+   "neighborhood_el": "Κηφισιά",
+   "neighborhood_en": "Kifisia",
+   "city_el": "Κηφισιά",
+   "city_en": "Kifisia",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "14562",
+   "lat": 38.075,
+   "lon": 23.8116,
+   "phone": "+302108011736",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s10",
+   "name_el": "Κουρείο Ο Μπάμπης",
+   "name_en": "Babis Barbershop",
+   "description_el": "Λαϊκό κουρείο στην Τσαλδάρη με σταθερές, χαμηλές τιμές και γρήγορο σέρβις. Ο Μπάμπης και ο ανιψιός του δέχονται και χωρίς ραντεβού, αλλά με κράτηση δεν περιμένεις καθόλου.",
+   "description_en": "A no-frills barbershop on Tsaldari Street with steady, low prices and fast service. Babis and his nephew take walk-ins, but with a booking you do not wait at all.",
+   "street_el": "Παναγή Τσαλδάρη 75",
+   "street_en": "Panagi Tsaldari 75",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Περιστέρι",
+   "city_en": "Peristeri",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "12134",
+   "lat": 38.0136,
+   "lon": 23.693,
+   "phone": "+302105738264",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s11",
+   "name_el": "Κουρείο Λιμάνι",
+   "name_en": "Limani Barbershop",
+   "description_el": "Κλασικό κουρείο λίγα στενά από το λιμάνι του Πειραιά, με καθρέφτες της δεκαετίας του '60 και μυρωδιά από κολόνια λεμόνι. Ναυτικοί, φοιτητές και επαγγελματίες της περιοχής έρχονται εδώ για καθαρό κούρεμα και ξύρισμα με ξυράφι.",
+   "description_en": "A classic barbershop a few streets from the port of Piraeus, with 1960s mirrors and the scent of lemon cologne. Sailors, students and local professionals come here for a clean cut and a straight-razor shave.",
+   "street_el": "Ηρώων Πολυτεχνείου 54",
+   "street_en": "Iroon Polytechneiou 54",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Πειραιάς",
+   "city_en": "Piraeus",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "18535",
+   "lat": 37.9425,
+   "lon": 23.6465,
+   "phone": "+302104129587",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s12",
+   "name_el": "Κουρείο Η Μαργαρίτα",
+   "name_en": "Margarita's Family Barbers",
+   "description_el": "Φιλικό οικογενειακό κουρείο στη Νέα Σμύρνη, λίγο πριν από την πλατεία. Η Μαργαρίτα έχει γωνιά με παιχνίδια και παιδική καρέκλα σε σχήμα αυτοκινήτου, οπότε το πρώτο κούρεμα γίνεται παιχνίδι.",
+   "description_en": "A friendly family barbershop in Nea Smyrni, just before the main square. Margarita keeps a toy corner and a car-shaped kids' chair, so a first haircut turns into a game.",
+   "street_el": "Ομήρου 30",
+   "street_en": "Omirou 30",
+   "neighborhood_el": "Νέα Σμύρνη",
+   "neighborhood_en": "Nea Smyrni",
+   "city_el": "Νέα Σμύρνη",
+   "city_en": "Nea Smyrni",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "17121",
+   "lat": 37.946,
+   "lon": 23.7137,
+   "phone": "+302109352718",
+   "style": "family",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s13",
+   "name_el": "Γρήγορο Ψαλίδι",
+   "name_en": "Grigoro Psalidi",
+   "description_el": "Express κουρείο στην Καλλιθέα για όσους θέλουν καλό κούρεμα σε είκοσι λεπτά. Τέσσερις θέσεις, συνεχές ωράριο και τιμές που δεν αλλάζουν κάθε χρόνο.",
+   "description_en": "An express barbershop in Kallithea for anyone who wants a good cut in twenty minutes. Four chairs, all-day hours and prices that do not change every year.",
+   "street_el": "Δαβάκη 40",
+   "street_en": "Davaki 40",
+   "neighborhood_el": "Καλλιθέα",
+   "neighborhood_en": "Kallithea",
+   "city_el": "Καλλιθέα",
+   "city_en": "Kallithea",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "17672",
+   "lat": 37.9579,
+   "lon": 23.704,
+   "phone": "+302109564083",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s14",
+   "name_el": "Αντίθεση Barber Studio",
+   "name_en": "Antithesi Barber Studio",
+   "description_el": "Industrial χώρος με μπετό, νέον και βινύλια στους Αμπελοκήπους. Οι μπαρμπέρηδες της Αντίθεσης είναι γνωστοί για τα textured crop, τα σχέδια με ξυράφι και τα τολμηρά χρώματα.",
+   "description_en": "An industrial space with concrete, neon and vinyl records in Ampelokipoi. Antithesi's barbers are known for textured crops, razor designs and bold colors.",
+   "street_el": "Πανόρμου 18",
+   "street_en": "Panormou 18",
+   "neighborhood_el": "Αμπελόκηποι",
+   "neighborhood_en": "Ampelokipoi",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11523",
+   "lat": 37.9912,
+   "lon": 23.7634,
+   "phone": "+302106447915",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s15",
+   "name_el": "Το Στέκι του Κουρέα",
+   "name_en": "To Steki Barbers",
+   "description_el": "Το αγαπημένο κουρείο των φοιτητών του Ζωγράφου, δύο στάσεις από την Πανεπιστημιούπολη. Φοιτητική τιμή με το πάσο, μουσική από τους πελάτες και ραντεβού μέχρι αργά το βράδυ.",
+   "description_en": "The favorite barbershop of Zografou's students, two bus stops from the university campus. Student prices with a student card, music picked by the customers and appointments until late.",
+   "street_el": "Παπάγου 92",
+   "street_en": "Papagou 92",
+   "neighborhood_el": "Ζωγράφου",
+   "neighborhood_en": "Zografou",
+   "city_el": "Ζωγράφου",
+   "city_en": "Zografou",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15771",
+   "lat": 37.9775,
+   "lon": 23.7702,
+   "phone": "+302107773402",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s16",
+   "name_el": "Κατερίνα Hair & Barber",
+   "name_en": "Katerina Hair & Barber",
+   "description_el": "Μοντέρνο οικογενειακό κουρείο στην Ηλιούπολη, όπου η Κατερίνα και η ομάδα της κουρεύουν άνδρες και παιδιά κάθε ηλικίας. Ξεχωρίζει για την υπομονή με τους μικρούς πελάτες και τα προσεγμένα κουρέματα για μπαμπά και γιο.",
+   "description_en": "A modern family barbershop in Ilioupoli, where Katerina and her team cut men and children of every age. It stands out for its patience with young customers and its careful father-and-son cuts.",
+   "street_el": "Σοφοκλή Βενιζέλου 120",
+   "street_en": "Sofokli Venizelou 120",
+   "neighborhood_el": "Ηλιούπολη",
+   "neighborhood_en": "Ilioupoli",
+   "city_el": "Ηλιούπολη",
+   "city_en": "Ilioupoli",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "16341",
+   "lat": 37.9317,
+   "lon": 23.7578,
+   "phone": "+302109914628",
+   "style": "family",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s17",
+   "name_el": "Κουρείο Ο Νίκος",
+   "name_en": "Nikos Barbershop",
+   "description_el": "Κουρείο της γειτονιάς πάνω στην Ιερά Οδό, κοντά στον σταθμό του μετρό. Καθαρά, γρήγορα και οικονομικά, με τον Νίκο να μετράει τριάντα χρόνια στη δουλειά.",
+   "description_en": "A neighborhood barbershop on Iera Odos, close to the metro station. Clean, fast and affordable, with Nikos counting thirty years in the trade.",
+   "street_el": "Ιερά Οδός 384",
+   "street_en": "Iera Odos 384",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Αιγάλεω",
+   "city_en": "Aigaleo",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "12243",
+   "lat": 37.9912,
+   "lon": 23.683,
+   "phone": "+302105310947",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s18",
+   "name_el": "Ευγένεια Gentlemen's Grooming",
+   "name_en": "Evgeneia Gentlemen's Grooming",
+   "description_el": "Ιδιωτικό grooming studio στο Νέο Ψυχικό, με δύο μόνο θέσεις και απόλυτη διακριτικότητα. Κάθε ραντεβού κρατά τουλάχιστον μία ώρα και περιλαμβάνει συμβουλή στυλ, κούρεμα, ξύρισμα και περιποίηση προσώπου.",
+   "description_en": "A private grooming studio in Neo Psychiko with only two chairs and complete discretion. Every appointment lasts at least an hour and includes style advice, a cut, a shave and facial care.",
+   "street_el": "Αγίου Δημητρίου 3",
+   "street_en": "Agiou Dimitriou 3",
+   "neighborhood_el": "Νέο Ψυχικό",
+   "neighborhood_en": "Neo Psychiko",
+   "city_el": "Ψυχικό",
+   "city_en": "Psychiko",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15451",
+   "lat": 38.0043,
+   "lon": 23.7775,
+   "phone": "+302106729054",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s19",
+   "name_el": "Κουρείο Ο Θανάσης",
+   "name_en": "Thanasis Barbershop",
+   "description_el": "Παραδοσιακό κουρείο στον Βύρωνα, με τον Θανάση πίσω από την καρέκλα από το 1991. Κλασικά κουρέματα, ξύρισμα με ξυράφι και κουβέντα για ποδόσφαιρο, όλα σε τιμή γειτονιάς.",
+   "description_en": "A traditional barbershop in Vyronas, with Thanasis behind the chair since 1991. Classic cuts, razor shaves and football talk, all at neighborhood prices.",
+   "street_el": "Καραολή Δημητρίου 40",
+   "street_en": "Karaoli Dimitriou 40",
+   "neighborhood_el": "Βύρωνας",
+   "neighborhood_en": "Vyronas",
+   "city_el": "Βύρωνας",
+   "city_en": "Vyronas",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "16232",
+   "lat": 37.9596,
+   "lon": 23.7554,
+   "phone": "+302107654391",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s20",
+   "name_el": "Ξυράφι Φαλήρου",
+   "name_en": "Xyrafi Faliro",
+   "description_el": "Κουρείο στο Παλαιό Φάληρο με ειδίκευση στα γένια και στο παραδοσιακό ξύρισμα. Οι μπαρμπέρηδες χρησιμοποιούν λεπίδες μιας χρήσης, ζεστό αφρό και after shave με ευκάλυπτο από τοπικό εργαστήριο.",
+   "description_en": "A Palaio Faliro barbershop that specializes in beards and traditional shaves. The barbers use single-use blades, warm lather and a eucalyptus aftershave from a local workshop.",
+   "street_el": "Αγίου Αλεξάνδρου 30",
+   "street_en": "Agiou Alexandrou 30",
+   "neighborhood_el": "Παλαιό Φάληρο",
+   "neighborhood_en": "Palaio Faliro",
+   "city_el": "Παλαιό Φάληρο",
+   "city_en": "Palaio Faliro",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "17561",
+   "lat": 37.9285,
+   "lon": 23.7018,
+   "phone": "+302109829176",
+   "style": "beard",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s21",
+   "name_el": "Κουρείο Μικροί & Μεγάλοι",
+   "name_en": "Mikroi & Megaloi Barbershop",
+   "description_el": "Το κουρείο του Αλίμου που αγαπούν τα παιδιά, με κινούμενα σχέδια στην οθόνη, καραμέλες χωρίς ζάχαρη και δίπλωμα πρώτου κουρέματος. Οι γονείς κουρεύονται στη διπλανή καρέκλα, την ίδια ώρα.",
+   "description_en": "The Alimos barbershop that kids love, with cartoons on the screen, sugar-free sweets and a first-haircut certificate. Parents get their cut in the next chair, at the same time.",
+   "street_el": "Καλαμακίου 45",
+   "street_en": "Kalamakiou 45",
+   "neighborhood_el": "Άλιμος",
+   "neighborhood_en": "Alimos",
+   "city_el": "Άλιμος",
+   "city_en": "Alimos",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "17455",
+   "lat": 37.912,
+   "lon": 23.7163,
+   "phone": "+302109851340",
+   "style": "family",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s22",
+   "name_el": "Ρότα Barbers",
+   "name_en": "Rota Barbers",
+   "description_el": "Σύγχρονο κουρείο στην Αγία Παρασκευή, με τέσσερις μπαρμπέρηδες και μπαρ καφέ στην είσοδο. Fade, crop και κλασικά κουρέματα, με αυστηρή τήρηση της ώρας κάθε ραντεβού.",
+   "description_en": "A modern barbershop in Agia Paraskevi with four barbers and a coffee bar at the entrance. Fades, crops and classic cuts, with strict respect for every appointment time.",
+   "street_el": "Αγίου Ιωάννου 52",
+   "street_en": "Agiou Ioannou 52",
+   "neighborhood_el": "Αγία Παρασκευή",
+   "neighborhood_en": "Agia Paraskevi",
+   "city_el": "Αγία Παρασκευή",
+   "city_en": "Agia Paraskevi",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15342",
+   "lat": 38.0102,
+   "lon": 23.8222,
+   "phone": "+302106008537",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s23",
+   "name_el": "Κουρείο της Βάσως",
+   "name_en": "Vaso's Barbershop",
+   "description_el": "Η Βάσω άνοιξε το κουρείο της στον Χολαργό το 2009 και από τότε κουρεύει τρεις γενιές από τις ίδιες οικογένειες. Ζεστό, καθαρό μαγαζί με φιλικές τιμές και ειδική τιμή για 65+.",
+   "description_en": "Vaso opened her barbershop in Cholargos in 2009 and has cut three generations of the same families since then. A warm, clean shop with friendly prices and a special rate for customers over 65.",
+   "street_el": "Περικλέους 30",
+   "street_en": "Perikleous 30",
+   "neighborhood_el": "Χολαργός",
+   "neighborhood_en": "Cholargos",
+   "city_el": "Χολαργός",
+   "city_en": "Cholargos",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15561",
+   "lat": 38.0045,
+   "lon": 23.7978,
+   "phone": "+302106524819",
+   "style": "family",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s24",
+   "name_el": "Αλκής ο Μπαρμπέρης",
+   "name_en": "Alkis the Barber",
+   "description_el": "Ο Αλκής είναι γνωστός στα Πετράλωνα για τα μακριά, περιποιημένα γένια και τα κουρέματα με vintage ύφος. Το μαγαζί έχει δερμάτινες καρέκλες, μουσική rockabilly και δικά του λάδια για γένια.",
+   "description_en": "Alkis is known in Petralona for long, well-kept beards and vintage-style cuts. The shop has leather chairs, rockabilly on the speakers and its own beard oils.",
+   "street_el": "Τρώων 52",
+   "street_en": "Troon 52",
+   "neighborhood_el": "Πετράλωνα",
+   "neighborhood_en": "Petralona",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11851",
+   "lat": 37.9706,
+   "lon": 23.7117,
+   "phone": "+302103459201",
+   "style": "beard",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s25",
+   "name_el": "Νέον Κουρείο",
+   "name_en": "Neon Barbers",
+   "description_el": "Κουρείο με φωτισμό νέον και βραδινό ωράριο στην Ψυρρή, ιδανικό για ένα fade πριν από την έξοδο. Δέχεται ραντεβού έως τις 22:00 από Πέμπτη έως Σάββατο.",
+   "description_en": "A neon-lit barbershop with late hours in Psyrri, ideal for a fade before a night out. Appointments run until 22:00 from Thursday to Saturday.",
+   "street_el": "Αισχύλου 12",
+   "street_en": "Aischylou 12",
+   "neighborhood_el": "Ψυρρή",
+   "neighborhood_en": "Psyrri",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "10554",
+   "lat": 37.9783,
+   "lon": 23.7245,
+   "phone": "+302103217648",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s26",
+   "name_el": "Κουρείο Φωταέριο",
+   "name_en": "Fotaerio Barbers",
+   "description_el": "Δίπλα στην Τεχνόπολη, το Φωταέριο συνδυάζει βιομηχανικό ντιζάιν με σύγχρονα κουρέματα και hair design. Οι μπαρμπέρηδες φτιάχνουν γραμμές και σχέδια με ξυράφι κατά παραγγελία.",
+   "description_en": "Next to Technopolis, Fotaerio blends industrial design with modern cuts and hair design. The barbers create custom lines and razor patterns on request.",
+   "street_el": "Περσεφόνης 30",
+   "street_en": "Persefonis 30",
+   "neighborhood_el": "Γκάζι",
+   "neighborhood_en": "Gazi",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11854",
+   "lat": 37.9773,
+   "lon": 23.7125,
+   "phone": "+302103470582",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s27",
+   "name_el": "Κουρείο Ο Τάσος",
+   "name_en": "Tasos Barbershop",
+   "description_el": "Απλό, καθαρό κουρείο στη Μεταμόρφωση με σταθερή πελατεία και πάρκινγκ μπροστά στο μαγαζί. Ο Τάσος κάνει γρήγορα κλασικά κουρέματα και πακέτο κούρεμα με γένια σε πολύ καλή τιμή.",
+   "description_en": "A simple, clean barbershop in Metamorfosi with loyal regulars and parking right outside. Tasos does fast classic cuts and a cut-and-beard package at a very good price.",
+   "street_el": "28ης Οκτωβρίου 18",
+   "street_en": "28is Oktovriou 18",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Μεταμόρφωση",
+   "city_en": "Metamorfosi",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "14452",
+   "lat": 38.0625,
+   "lon": 23.7588,
+   "phone": "+302102815639",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s28",
+   "name_el": "Κουρείο Ιωνία 1968",
+   "name_en": "Ionia 1968 Barbershop",
+   "description_el": "Από το 1968 στη Λεωφόρο Ηρακλείου, το κουρείο κρατά ζωντανή την παράδοση των μαστόρων της Νέας Ιωνίας. Ξύρισμα με πινέλο και ζεστή πετσέτα, κολόνια στο τέλος και καμία βιασύνη.",
+   "description_en": "On Irakleiou Avenue since 1968, this barbershop keeps alive the tradition of the old master barbers of Nea Ionia. Brush-lathered shaves with a hot towel, cologne at the end and no rush.",
+   "street_el": "Λεωφόρος Ηρακλείου 280",
+   "street_en": "Irakleiou Avenue 280",
+   "neighborhood_el": "Νέα Ιωνία",
+   "neighborhood_en": "Nea Ionia",
+   "city_el": "Νέα Ιωνία",
+   "city_en": "Nea Ionia",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "14231",
+   "lat": 38.0368,
+   "lon": 23.7562,
+   "phone": "+302102779146",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s29",
+   "name_el": "Κουρείο Ο Λευτέρης",
+   "name_en": "Lefteris Barbershop",
+   "description_el": "Μικρό κουρείο στον Νέο Κόσμο, πέντε λεπτά από τη στάση του τραμ. Καλά κουρέματα σε χαμηλές τιμές, και ο Λευτέρης θυμάται πάντα πώς το θέλεις.",
+   "description_en": "A small barbershop in Neos Kosmos, five minutes from the tram stop. Good cuts at low prices, and Lefteris always remembers how you like it.",
+   "street_el": "Φραντζή 22",
+   "street_en": "Frantzi 22",
+   "neighborhood_el": "Νέος Κόσμος",
+   "neighborhood_en": "Neos Kosmos",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11745",
+   "lat": 37.9598,
+   "lon": 23.7288,
+   "phone": "+302109018375",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s30",
+   "name_el": "Κουρείο Η Ιωάννα",
+   "name_en": "Ioanna's Family Barbers",
+   "description_el": "Φωτεινό οικογενειακό κουρείο στα Βριλήσσια, με χώρο αναμονής για γονείς και παιδιά. Η Ιωάννα έχει εκπαιδευτεί σε κουρέματα για παιδιά με αισθητηριακή ευαισθησία και δουλεύει με αθόρυβα εργαλεία.",
+   "description_en": "A bright family barbershop in Vrilissia, with a waiting area for parents and children. Ioanna has trained in haircuts for children with sensory sensitivities and works with quiet tools.",
+   "street_el": "Λεωφόρος Πεντέλης 70",
+   "street_en": "Pentelis Avenue 70",
+   "neighborhood_el": "Βριλήσσια",
+   "neighborhood_en": "Vrilissia",
+   "city_el": "Βριλήσσια",
+   "city_en": "Vrilissia",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "15235",
+   "lat": 38.0346,
+   "lon": 23.8304,
+   "phone": "+302108034726",
+   "style": "family",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s31",
+   "name_el": "Mikrolimano Barber Club",
+   "name_en": "Mikrolimano Barber Club",
+   "description_el": "Barber club με θέα στο Μικρολίμανο, όπου το κούρεμα συνοδεύεται από espresso ή ουίσκι. Premium υπηρεσίες για μαλλιά και γένια, με έμφαση στο ξύρισμα με ζεστή πετσέτα.",
+   "description_en": "A barber club overlooking Mikrolimano, where a cut comes with an espresso or a whisky. Premium hair and beard services, with a focus on the hot-towel shave.",
+   "street_el": "Ακτή Κουμουνδούρου 34",
+   "street_en": "Akti Koumoundourou 34",
+   "neighborhood_el": "Καστέλλα",
+   "neighborhood_en": "Kastella",
+   "city_el": "Πειραιάς",
+   "city_en": "Piraeus",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "18533",
+   "lat": 37.9353,
+   "lon": 23.6587,
+   "phone": "+302104175093",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s32",
+   "name_el": "Κουρείο Αύρα",
+   "name_en": "Avra Barbers",
+   "description_el": "Ανάλαφρο, παραθαλάσσιο κουρείο στη Βούλα με μεγάλα παράθυρα και φυτά παντού. Μοντέρνα κουρέματα, fade και περιποίηση γενιών, με προϊόντα χωρίς θειικά άλατα.",
+   "description_en": "A breezy seaside barbershop in Voula with large windows and plants everywhere. Modern cuts, fades and beard care, with sulfate-free products.",
+   "street_el": "Βασιλέως Παύλου 72",
+   "street_en": "Vasileos Pavlou 72",
+   "neighborhood_el": "Βούλα",
+   "neighborhood_en": "Voula",
+   "city_el": "Βούλα",
+   "city_en": "Voula",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "16673",
+   "lat": 37.8435,
+   "lon": 23.7718,
+   "phone": "+302108959371",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s33",
+   "name_el": "Κουρείο Ο Παντελής",
+   "name_en": "Pantelis Barbershop",
+   "description_el": "Κουρείο με παράδοση στα Ιλίσια, κοντά στο Μέγαρο Μουσικής. Ο Παντελής κουρεύει δικηγόρους, γιατρούς και φοιτητές με το ίδιο προσεγμένο κλασικό κούρεμα.",
+   "description_en": "A traditional barbershop in Ilisia, near the Athens Concert Hall. Pantelis gives lawyers, doctors and students the same careful classic cut.",
+   "street_el": "Μιχαλακοπούλου 98",
+   "street_en": "Michalakopoulou 98",
+   "neighborhood_el": "Ιλίσια",
+   "neighborhood_en": "Ilisia",
+   "city_el": "Αθήνα",
+   "city_en": "Athens",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11528",
+   "lat": 37.979,
+   "lon": 23.757,
+   "phone": "+302107485209",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s34",
+   "name_el": "Κουρείο Ο Σάκης",
+   "name_en": "Sakis Barbershop",
+   "description_el": "Κουρείο της γειτονιάς στη Λεωφόρο Βεΐκου, με γρήγορο σέρβις και πάντα καλή διάθεση. Οι τιμές είναι από τις χαμηλότερες στο Γαλάτσι και η καθαριότητα άψογη.",
+   "description_en": "A neighborhood barbershop on Veikou Avenue, with fast service and a good mood every day. Prices are among the lowest in Galatsi and the shop is spotless.",
+   "street_el": "Λεωφόρος Βεΐκου 75",
+   "street_en": "Veikou Avenue 75",
+   "neighborhood_el": "Γαλάτσι",
+   "neighborhood_en": "Galatsi",
+   "city_el": "Γαλάτσι",
+   "city_en": "Galatsi",
+   "region_el": "Αττική",
+   "region_en": "Attica",
+   "postal_code": "11146",
+   "lat": 38.0175,
+   "lon": 23.752,
+   "phone": "+302102917384",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s35",
+   "name_el": "Αλάτι & Πιπέρι Barbers",
+   "name_en": "Alati & Piperi Barbers",
+   "description_el": "Σύγχρονο κουρείο στα Λαδάδικα, με ειδίκευση στο grey blending και στα κουρέματα για γκρίζα μαλλιά. Η ομάδα πιστεύει ότι τα γκρίζα δεν κρύβονται, αλλά αναδεικνύονται.",
+   "description_en": "A modern barbershop in Ladadika that specializes in grey blending and cuts for grey hair. The team believes grey is not something to hide but something to show.",
+   "street_el": "Κατουνίου 12",
+   "street_en": "Katouniou 12",
+   "neighborhood_el": "Λαδάδικα",
+   "neighborhood_en": "Ladadika",
+   "city_el": "Θεσσαλονίκη",
+   "city_en": "Thessaloniki",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "54625",
+   "lat": 40.6358,
+   "lon": 22.9372,
+   "phone": "+302310532847",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s36",
+   "name_el": "Βασιλικόν Grooming",
+   "name_en": "Vasilikon Grooming",
+   "description_el": "Premium κουρείο στον πρώτο όροφο ενός νεοκλασικού στην Τσιμισκή. Κουρέματα με ψαλίδι, ξύρισμα με ζεστή πετσέτα και περιποίηση προσώπου με προϊόντα από ελληνικά βότανα.",
+   "description_en": "A premium barbershop on the first floor of a neoclassical building on Tsimiski Street. Scissor cuts, hot-towel shaves and facial care with products made from Greek herbs.",
+   "street_el": "Τσιμισκή 78",
+   "street_en": "Tsimiski 78",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Θεσσαλονίκη",
+   "city_en": "Thessaloniki",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "54622",
+   "lat": 40.6325,
+   "lon": 22.9438,
+   "phone": "+302310264195",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s37",
+   "name_el": "Κουρείο Ο Στέλιος",
+   "name_en": "Stelios Barbershop",
+   "description_el": "Ο κυρ Στέλιος άνοιξε το κουρείο στην Κομνηνών το 1978 και σήμερα δουλεύει δίπλα στον γιο του. Οικογενειακή ατμόσφαιρα, παιδικά κουρέματα και σταθερή ποιότητα εδώ και τέσσερις δεκαετίες.",
+   "description_en": "Mr Stelios opened the shop on Komninon Street in 1978 and today works next to his son. A family atmosphere, kids' cuts and steady quality for four decades.",
+   "street_el": "Κομνηνών 40",
+   "street_en": "Komninon 40",
+   "neighborhood_el": "Καλαμαριά",
+   "neighborhood_en": "Kalamaria",
+   "city_el": "Καλαμαριά",
+   "city_en": "Kalamaria",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "55132",
+   "lat": 40.5824,
+   "lon": 22.9505,
+   "phone": "+302310441728",
+   "style": "family",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s38",
+   "name_el": "Κουρείο της Σοφίας",
+   "name_en": "Sofia's Barbershop",
+   "description_el": "Η Σοφία κρατά ένα από τα πιο αγαπημένα κουρεία της Τούμπας, με κλασικά κουρέματα και ξύρισμα όπως παλιά. Οι πελάτες επιστρέφουν για τα χέρια της και για τον ελληνικό καφέ στην αναμονή.",
+   "description_en": "Sofia runs one of the best-loved barbershops in Toumba, with classic cuts and old-school shaves. Customers come back for her skill and for the Greek coffee while they wait.",
+   "street_el": "Παπαναστασίου 110",
+   "street_en": "Papanastasiou 110",
+   "neighborhood_el": "Τούμπα",
+   "neighborhood_en": "Toumba",
+   "city_el": "Θεσσαλονίκη",
+   "city_en": "Thessaloniki",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "54453",
+   "lat": 40.6128,
+   "lon": 22.9635,
+   "phone": "+302310917364",
+   "style": "classic",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s39",
+   "name_el": "Το Κάστρο",
+   "name_en": "To Kastro Barbershop",
+   "description_el": "Μικρό πέτρινο κουρείο στην Άνω Πόλη, κάτω από τα κάστρα. Ειδικεύεται στα γένια, στο ξύρισμα με ξυράφι και στα κλασικά κουρέματα με ψαλίδι.",
+   "description_en": "A small stone-built barbershop in Ano Poli, below the city walls. It specializes in beards, straight-razor shaves and classic scissor cuts.",
+   "street_el": "Ολυμπιάδος 80",
+   "street_en": "Olympiados 80",
+   "neighborhood_el": "Άνω Πόλη",
+   "neighborhood_en": "Ano Poli",
+   "city_el": "Θεσσαλονίκη",
+   "city_en": "Thessaloniki",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "54633",
+   "lat": 40.6396,
+   "lon": 22.9508,
+   "phone": "+302310209583",
+   "style": "beard",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s40",
+   "name_el": "Κουρείο Ρυθμός",
+   "name_en": "Rythmos Barbers",
+   "description_el": "Γρήγορο, οικονομικό κουρείο κοντά στο Αριστοτέλειο Πανεπιστήμιο. Φοιτητικές τιμές όλη την εβδομάδα και ραντεβού ανά δεκαπέντε λεπτά για όσους βιάζονται.",
+   "description_en": "A fast, budget barbershop near Aristotle University. Student prices all week and appointments every fifteen minutes for anyone in a hurry.",
+   "street_el": "Εθνικής Αμύνης 12",
+   "street_en": "Ethnikis Amynis 12",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Θεσσαλονίκη",
+   "city_en": "Thessaloniki",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "54621",
+   "lat": 40.6298,
+   "lon": 22.951,
+   "phone": "+302310283916",
+   "style": "budget",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s41",
+   "name_el": "Κουρείο Ο Γιάννης",
+   "name_en": "Giannis Barbershop",
+   "description_el": "Οικογενειακό κουρείο στη Σταυρούπολη, με τον Γιάννη στην καρέκλα και τη σύζυγό του στο ταμείο. Κουρέματα για όλη την οικογένεια, γωνιά για παιδιά και άνετο πάρκινγκ στο πλάι.",
+   "description_en": "A family barbershop in Stavroupoli, with Giannis at the chair and his wife at the front desk. Cuts for the whole family, a kids' corner and easy parking on the side street.",
+   "street_el": "Λαγκαδά 150",
+   "street_en": "Lagkada 150",
+   "neighborhood_el": "Σταυρούπολη",
+   "neighborhood_en": "Stavroupoli",
+   "city_el": "Σταυρούπολη",
+   "city_en": "Stavroupoli",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "56430",
+   "lat": 40.6643,
+   "lon": 22.9338,
+   "phone": "+302310657204",
+   "style": "family",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s42",
+   "name_el": "Θέα Barber Lounge",
+   "name_en": "Thea Barber Lounge",
+   "description_el": "Grooming lounge στο Πανόραμα με θέα στον Θερμαϊκό από τις καρέκλες. Premium κουρέματα, βαφή και θεραπείες τριχωτού, σε έναν ήσυχο χώρο με ραντεβού μόνο κατόπιν κράτησης.",
+   "description_en": "A grooming lounge in Panorama with a view of the Thermaic Gulf from the chairs. Premium cuts, color and scalp treatments in a quiet space, by appointment only.",
+   "street_el": "Κομνηνών 20",
+   "street_en": "Komninon 20",
+   "neighborhood_el": "Πανόραμα",
+   "neighborhood_en": "Panorama",
+   "city_el": "Πανόραμα",
+   "city_en": "Panorama",
+   "region_el": "Κεντρική Μακεδονία",
+   "region_en": "Central Macedonia",
+   "postal_code": "55236",
+   "lat": 40.5885,
+   "lon": 23.032,
+   "phone": "+302310343871",
+   "style": "premium",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s43",
+   "name_el": "Κουρείο Ο Αχαιός",
+   "name_en": "Achaios Barbershop",
+   "description_el": "Κλασικό κουρείο στο κέντρο της Πάτρας, λίγα μέτρα από την πλατεία Γεωργίου. Οι μάστορες του Αχαιού κόβουν με ψαλίδι και χτένα, όπως έμαθαν από τους παλιούς.",
+   "description_en": "A classic barbershop in central Patras, a few meters from Georgiou Square. The barbers at Achaios cut with scissors and comb, the way the old masters taught them.",
+   "street_el": "Ρήγα Φεραίου 120",
+   "street_en": "Riga Feraiou 120",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Πάτρα",
+   "city_en": "Patras",
+   "region_el": "Δυτική Ελλάδα",
+   "region_en": "Western Greece",
+   "postal_code": "26221",
+   "lat": 38.245,
+   "lon": 21.7358,
+   "phone": "+302610274915",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s44",
+   "name_el": "Ελένη Barber Studio",
+   "name_en": "Eleni Barber Studio",
+   "description_el": "Μοντέρνο barber studio στη Μαιζώνος με γυναικεία ματιά στο ανδρικό κούρεμα. Η Ελένη και η ομάδα της κάνουν fade, crop και χρώμα, με πολλή προσοχή στη λεπτομέρεια.",
+   "description_en": "A modern barber studio on Maizonos Street that brings a woman's eye to men's cuts. Eleni and her team do fades, crops and color with close attention to detail.",
+   "street_el": "Μαιζώνος 180",
+   "street_en": "Maizonos 180",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Πάτρα",
+   "city_en": "Patras",
+   "region_el": "Δυτική Ελλάδα",
+   "region_en": "Western Greece",
+   "postal_code": "26222",
+   "lat": 38.2436,
+   "lon": 21.7394,
+   "phone": "+302610438207",
+   "style": "modern",
+   "owner_gender": "f"
+  },
+  {
+   "key": "s45",
+   "name_el": "Κουρείο Λαβύρινθος",
+   "name_en": "Labyrinthos Barbers",
+   "description_el": "Σύγχρονο κουρείο στον πεζόδρομο της Δαιδάλου, στο κέντρο του Ηρακλείου. Δημοφιλές στους νέους για τα fade και τα σχέδια, αλλά και στους επισκέπτες που θέλουν ένα γρήγορο κούρεμα.",
+   "description_en": "A modern barbershop on the Daidalou pedestrian street in central Heraklion. Popular with young locals for fades and designs, and with visitors who want a quick cut.",
+   "street_el": "Δαιδάλου 20",
+   "street_en": "Daidalou 20",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Ηράκλειο",
+   "city_en": "Heraklion",
+   "region_el": "Κρήτη",
+   "region_en": "Crete",
+   "postal_code": "71202",
+   "lat": 35.3394,
+   "lon": 25.134,
+   "phone": "+302810246718",
+   "style": "modern",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s46",
+   "name_el": "Κουρείο Ο Μανώλης",
+   "name_en": "Manolis Barbershop",
+   "description_el": "Ο Μανώλης κουρεύει στον Πόρο εδώ και δεκαπέντε χρόνια, με κρητική φιλοξενία και ρακί για τους τακτικούς. Κλασικά κουρέματα και περιποίηση για γένια και μουστάκι.",
+   "description_en": "Manolis has been cutting hair in Poros for fifteen years, with Cretan hospitality and raki for the regulars. Classic cuts plus beard and mustache care.",
+   "street_el": "Λεωφόρος Ικάρου 45",
+   "street_en": "Ikarou Avenue 45",
+   "neighborhood_el": "Πόρος",
+   "neighborhood_en": "Poros",
+   "city_el": "Ηράκλειο",
+   "city_en": "Heraklion",
+   "region_el": "Κρήτη",
+   "region_en": "Crete",
+   "postal_code": "71306",
+   "lat": 35.3375,
+   "lon": 25.146,
+   "phone": "+302810331592",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s47",
+   "name_el": "Κουρείο Πηνειός",
+   "name_en": "Pineios Barbershop",
+   "description_el": "Οικογενειακό κουρείο στο κέντρο της Λάρισας, με χώρο για καροτσάκια και παιδική καρέκλα. Γρήγορα, προσεγμένα κουρέματα για μπαμπάδες και παιδιά, από Δευτέρα έως Σάββατο.",
+   "description_en": "A family barbershop in central Larissa, with room for strollers and a kids' chair. Fast, careful cuts for dads and kids, Monday to Saturday.",
+   "street_el": "Παπαναστασίου 80",
+   "street_en": "Papanastasiou 80",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Λάρισα",
+   "city_en": "Larissa",
+   "region_el": "Θεσσαλία",
+   "region_en": "Thessaly",
+   "postal_code": "41222",
+   "lat": 39.638,
+   "lon": 22.4185,
+   "phone": "+302410536829",
+   "style": "family",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s48",
+   "name_el": "Κουρείο της Λίμνης",
+   "name_en": "Limni Barbershop",
+   "description_el": "Κλασικό κουρείο στη Μιχαήλ Αγγέλου, λίγα βήματα από τη λίμνη Παμβώτιδα. Σοβαρή δουλειά με ψαλίδι, ξύρισμα με ξυράφι και ήρεμη ατμόσφαιρα.",
+   "description_en": "A classic barbershop on Michail Angelou Street, a short walk from Lake Pamvotida. Serious scissor work, straight-razor shaves and a calm atmosphere.",
+   "street_el": "Μιχαήλ Αγγέλου 22",
+   "street_en": "Michail Angelou 22",
+   "neighborhood_el": "Κέντρο",
+   "neighborhood_en": "City Center",
+   "city_el": "Ιωάννινα",
+   "city_en": "Ioannina",
+   "region_el": "Ήπειρος",
+   "region_en": "Epirus",
+   "postal_code": "45332",
+   "lat": 39.6653,
+   "lon": 20.8515,
+   "phone": "+302651072438",
+   "style": "classic",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s49",
+   "name_el": "Κουρείο Αργώ",
+   "name_en": "Argo Barbers",
+   "description_el": "Κουρείο με ναυτικό ύφος στον Βόλο, αφιερωμένο στα γένια και στο παραδοσιακό ξύρισμα. Οι μπαρμπέρηδες φτιάχνουν δικά τους βάλσαμα με κερί μέλισσας από το Πήλιο.",
+   "description_en": "A nautical-themed barbershop in Volos, devoted to beards and traditional shaves. The barbers make their own balms with beeswax from Mount Pelion.",
+   "street_el": "Ερμού 110",
+   "street_en": "Ermou 110",
+   "neighborhood_el": null,
+   "neighborhood_en": null,
+   "city_el": "Βόλος",
+   "city_en": "Volos",
+   "region_el": "Θεσσαλία",
+   "region_en": "Thessaly",
+   "postal_code": "38333",
+   "lat": 39.362,
+   "lon": 22.9436,
+   "phone": "+302421035917",
+   "style": "beard",
+   "owner_gender": "m"
+  },
+  {
+   "key": "s50",
+   "name_el": "Κουρείο Η Αργυρώ",
+   "name_en": "Argyro's Barbershop",
+   "description_el": "Η Αργυρώ κουρεύει στην Παλιά Πόλη των Χανίων, σε ένα μαγαζί με πέτρινους τοίχους λίγο πάνω από το λιμάνι. Κλασικά ανδρικά και παιδικά κουρέματα, με ζεστή κρητική φιλοξενία.",
+   "description_en": "Argyro cuts hair in the Old Town of Chania, in a stone-walled shop just above the harbor. Classic men's and kids' cuts, with warm Cretan hospitality.",
+   "street_el": "Χάληδων 40",
+   "street_en": "Chalidon 40",
+   "neighborhood_el": "Παλιά Πόλη",
+   "neighborhood_en": "Old Town",
+   "city_el": "Χανιά",
+   "city_en": "Chania",
+   "region_el": "Κρήτη",
+   "region_en": "Crete",
+   "postal_code": "73131",
+   "lat": 35.5142,
+   "lon": 24.0175,
+   "phone": "+302821052864",
+   "style": "classic",
+   "owner_gender": "f"
+  }
+ ],
+ "service_catalog": [
+  {
+   "key": "classic_cut",
+   "category": "haircuts",
+   "name_el": "Κλασικό κούρεμα",
+   "name_en": "Classic haircut",
+   "description_el": "Κούρεμα με μηχανή και ψαλίδι, με λούσιμο και απλό styling στο τέλος.",
+   "description_en": "A clipper and scissor cut, finished with a wash and simple styling.",
+   "duration_minutes": 30,
+   "price_min": 12,
+   "price_max": 25,
+   "buffer_after": 5,
+   "popularity": 10,
+   "styles": [
+    "classic",
+    "modern",
+    "premium",
+    "family",
+    "budget",
+    "beard"
+   ]
+  },
+  {
+   "key": "skin_fade",
+   "category": "haircuts",
+   "name_el": "Skin fade",
+   "name_en": "Skin fade",
+   "description_el": "Fade που ξεκινά από το δέρμα στα πλάγια και σβήνει ομαλά προς τα επάνω.",
+   "description_en": "A fade that starts at the skin on the sides and blends smoothly upward.",
+   "duration_minutes": 40,
+   "price_min": 15,
+   "price_max": 25,
+   "buffer_after": 5,
+   "popularity": 9,
+   "styles": [
+    "modern",
+    "premium",
+    "budget",
+    "beard"
+   ]
+  },
+  {
+   "key": "scissor_cut",
+   "category": "haircuts",
+   "name_el": "Κούρεμα με ψαλίδι",
+   "name_en": "Scissor cut",
+   "description_el": "Κούρεμα μόνο με ψαλίδι και χτένα, για φυσική υφή και μαλακές γραμμές.",
+   "description_en": "A cut with scissors and comb only, for natural texture and soft lines.",
+   "duration_minutes": 45,
+   "price_min": 18,
+   "price_max": 35,
+   "buffer_after": 5,
+   "popularity": 7,
+   "styles": [
+    "classic",
+    "premium",
+    "family",
+    "beard"
+   ]
+  },
+  {
+   "key": "buzz_cut",
+   "category": "haircuts",
+   "name_el": "Buzz cut",
+   "name_en": "Buzz cut",
+   "description_el": "Ομοιόμορφο κοντό κούρεμα με μηχανή σε ένα νούμερο σε όλο το κεφάλι.",
+   "description_en": "An even, short clipper cut with one guard all over the head.",
+   "duration_minutes": 15,
+   "price_min": 10,
+   "price_max": 14,
+   "buffer_after": 0,
+   "popularity": 6,
+   "styles": [
+    "budget",
+    "family",
+    "classic",
+    "modern"
+   ]
+  },
+  {
+   "key": "long_hair_cut",
+   "category": "haircuts",
+   "name_el": "Κούρεμα για μακριά μαλλιά",
+   "name_en": "Long hair cut",
+   "description_el": "Κούρεμα και κλιμάκωση για μαλλιά κάτω από τα αυτιά, με λούσιμο και στέγνωμα.",
+   "description_en": "A cut and layering for hair below the ears, with a wash and blow-dry.",
+   "duration_minutes": 50,
+   "price_min": 20,
+   "price_max": 35,
+   "buffer_after": 10,
+   "popularity": 4,
+   "styles": [
+    "modern",
+    "premium",
+    "classic"
+   ]
+  },
+  {
+   "key": "signature_cut",
+   "category": "haircuts",
+   "name_el": "Signature κούρεμα",
+   "name_en": "Signature haircut",
+   "description_el": "Συμβουλή στυλ, κούρεμα, λούσιμο με μασάζ κεφαλής και styling με premium προϊόντα.",
+   "description_en": "Style advice, a cut, a wash with head massage and styling with premium products.",
+   "duration_minutes": 60,
+   "price_min": 30,
+   "price_max": 40,
+   "buffer_after": 10,
+   "popularity": 6,
+   "styles": [
+    "premium"
+   ]
+  },
+  {
+   "key": "student_cut",
+   "category": "haircuts",
+   "name_el": "Φοιτητικό κούρεμα",
+   "name_en": "Student haircut",
+   "description_el": "Κλασικό κούρεμα σε μειωμένη τιμή με επίδειξη φοιτητικού πάσου.",
+   "description_en": "A classic cut at a reduced price on showing a valid student card.",
+   "duration_minutes": 30,
+   "price_min": 10,
+   "price_max": 13,
+   "buffer_after": 5,
+   "popularity": 6,
+   "styles": [
+    "budget",
+    "modern",
+    "classic"
+   ]
+  },
+  {
+   "key": "senior_cut",
+   "category": "haircuts",
+   "name_el": "Κούρεμα 65+",
+   "name_en": "Senior haircut (65+)",
+   "description_el": "Κλασικό κούρεμα σε ειδική τιμή για πελάτες άνω των 65 ετών.",
+   "description_en": "A classic cut at a special price for customers over 65.",
+   "duration_minutes": 25,
+   "price_min": 10,
+   "price_max": 13,
+   "buffer_after": 5,
+   "popularity": 4,
+   "styles": [
+    "classic",
+    "family",
+    "budget"
+   ]
+  },
+  {
+   "key": "express_cut",
+   "category": "haircuts",
+   "name_el": "Express κούρεμα",
+   "name_en": "Express haircut",
+   "description_el": "Γρήγορο κούρεμα χωρίς λούσιμο, για όσους βιάζονται.",
+   "description_en": "A quick cut without a wash, for anyone in a hurry.",
+   "duration_minutes": 20,
+   "price_min": 10,
+   "price_max": 12,
+   "buffer_after": 0,
+   "popularity": 5,
+   "styles": [
+    "budget",
+    "modern"
+   ]
+  },
+  {
+   "key": "hair_design",
+   "category": "haircuts",
+   "name_el": "Σχέδια & γραμμές",
+   "name_en": "Hair design & lines",
+   "description_el": "Γραμμές ή σχέδια με ξυράφι και trimmer, πάνω σε υπάρχον fade.",
+   "description_en": "Lines or patterns made with razor and trimmer on an existing fade.",
+   "duration_minutes": 20,
+   "price_min": 8,
+   "price_max": 15,
+   "buffer_after": 5,
+   "popularity": 4,
+   "styles": [
+    "modern",
+    "budget"
+   ]
+  },
+  {
+   "key": "cut_beard_combo",
+   "category": "haircuts",
+   "name_el": "Κούρεμα & γένια",
+   "name_en": "Haircut & beard",
+   "description_el": "Κλασικό κούρεμα μαζί με περιποίηση και σχήμα γενιών στην ίδια επίσκεψη.",
+   "description_en": "A classic cut plus beard trim and shaping in the same visit.",
+   "duration_minutes": 50,
+   "price_min": 20,
+   "price_max": 35,
+   "buffer_after": 5,
+   "popularity": 10,
+   "styles": [
+    "classic",
+    "modern",
+    "premium",
+    "family",
+    "budget",
+    "beard"
+   ]
+  },
+  {
+   "key": "fade_beard_combo",
+   "category": "haircuts",
+   "name_el": "Fade & γένια με ξυράφι",
+   "name_en": "Fade & razor beard",
+   "description_el": "Skin fade και σχήμα γενιών με ξυράφι, με ζεστή πετσέτα στο τέλος.",
+   "description_en": "A skin fade and razor beard shaping, finished with a hot towel.",
+   "duration_minutes": 60,
+   "price_min": 25,
+   "price_max": 38,
+   "buffer_after": 10,
+   "popularity": 7,
+   "styles": [
+    "modern",
+    "premium",
+    "beard"
+   ]
+  },
+  {
+   "key": "beard_trim",
+   "category": "beard",
+   "name_el": "Περιποίηση γενιών",
+   "name_en": "Beard trim",
+   "description_el": "Κόντεμα και ίσιωμα γενιών με μηχανή και ψαλίδι, με λάδι στο τέλος.",
+   "description_en": "Beard trimming and tidying with clipper and scissors, finished with oil.",
+   "duration_minutes": 20,
+   "price_min": 8,
+   "price_max": 15,
+   "buffer_after": 5,
+   "popularity": 9,
+   "styles": [
+    "classic",
+    "modern",
+    "premium",
+    "family",
+    "budget",
+    "beard"
+   ]
+  },
+  {
+   "key": "beard_razor_shape",
+   "category": "beard",
+   "name_el": "Σχήμα γενιών με ξυράφι",
+   "name_en": "Razor beard shaping",
+   "description_el": "Καθαρές γραμμές στα μάγουλα και στον λαιμό με ξυράφι και ζεστό αφρό.",
+   "description_en": "Sharp cheek and neck lines with a straight razor and warm lather.",
+   "duration_minutes": 30,
+   "price_min": 12,
+   "price_max": 18,
+   "buffer_after": 5,
+   "popularity": 7,
+   "styles": [
+    "beard",
+    "premium",
+    "modern",
+    "classic"
+   ]
+  },
+  {
+   "key": "hot_towel_shave",
+   "category": "beard",
+   "name_el": "Ξύρισμα με ζεστή πετσέτα",
+   "name_en": "Hot towel shave",
+   "description_el": "Παραδοσιακό ξύρισμα με ξυράφι, δύο ζεστές πετσέτες και κρύα κομπρέσα στο τέλος.",
+   "description_en": "A traditional straight-razor shave with two hot towels and a cold compress at the end.",
+   "duration_minutes": 35,
+   "price_min": 15,
+   "price_max": 25,
+   "buffer_after": 10,
+   "popularity": 6,
+   "styles": [
+    "classic",
+    "premium",
+    "beard"
+   ]
+  },
+  {
+   "key": "moustache_trim",
+   "category": "beard",
+   "name_el": "Περιποίηση μουστακιού",
+   "name_en": "Mustache trim",
+   "description_el": "Κόντεμα και σχήμα μουστακιού με ψαλιδάκι, με κερί αν χρειάζεται.",
+   "description_en": "Mustache trimming and shaping with small scissors, with wax if needed.",
+   "duration_minutes": 10,
+   "price_min": 5,
+   "price_max": 8,
+   "buffer_after": 0,
+   "popularity": 3,
+   "styles": [
+    "classic",
+    "beard",
+    "premium"
+   ]
+  },
+  {
+   "key": "beard_treatment",
+   "category": "beard",
+   "name_el": "Θεραπεία γενιών",
+   "name_en": "Beard treatment",
+   "description_el": "Λούσιμο γενιών, ζεστή πετσέτα, λάδι και βάλσαμο για μαλακή και ενυδατωμένη τρίχα.",
+   "description_en": "A beard wash, hot towel, oil and balm for soft, hydrated hair.",
+   "duration_minutes": 20,
+   "price_min": 10,
+   "price_max": 15,
+   "buffer_after": 5,
+   "popularity": 3,
+   "styles": [
+    "beard",
+    "premium"
+   ]
+  },
+  {
+   "key": "kids_cut",
+   "category": "kids",
+   "name_el": "Παιδικό κούρεμα",
+   "name_en": "Kids haircut",
+   "description_el": "Κούρεμα για παιδιά έως 12 ετών, με υπομονή και χωρίς βιασύνη.",
+   "description_en": "A cut for children up to 12, done with patience and no rush.",
+   "duration_minutes": 25,
+   "price_min": 10,
+   "price_max": 15,
+   "buffer_after": 5,
+   "popularity": 8,
+   "styles": [
+    "family",
+    "classic",
+    "budget",
+    "modern"
+   ]
+  },
+  {
+   "key": "father_son",
+   "category": "kids",
+   "name_el": "Μπαμπάς & γιος",
+   "name_en": "Father & son",
+   "description_el": "Κούρεμα για τον μπαμπά και ένα παιδί έως 12 ετών, σε διπλανές καρέκλες.",
+   "description_en": "A cut for a dad and one child up to 12, in side-by-side chairs.",
+   "duration_minutes": 55,
+   "price_min": 22,
+   "price_max": 35,
+   "buffer_after": 10,
+   "popularity": 5,
+   "styles": [
+    "family",
+    "classic"
+   ]
+  },
+  {
+   "key": "first_haircut",
+   "category": "kids",
+   "name_el": "Πρώτο κούρεμα",
+   "name_en": "First haircut",
+   "description_el": "Το πρώτο κούρεμα του μωρού, με φωτογραφία, δίπλωμα και μια τούφα για ενθύμιο.",
+   "description_en": "Baby's first cut, with a photo, a certificate and a lock of hair to keep.",
+   "duration_minutes": 20,
+   "price_min": 12,
+   "price_max": 15,
+   "buffer_after": 10,
+   "popularity": 2,
+   "styles": [
+    "family"
+   ]
+  },
+  {
+   "key": "eyebrow_tidy",
+   "category": "grooming",
+   "name_el": "Περιποίηση φρυδιών",
+   "name_en": "Eyebrow tidy",
+   "description_el": "Καθάρισμα και ίσιωμα φρυδιών με ψαλιδάκι και τσιμπιδάκι.",
+   "description_en": "Eyebrow cleanup and shaping with small scissors and tweezers.",
+   "duration_minutes": 10,
+   "price_min": 5,
+   "price_max": 8,
+   "buffer_after": 0,
+   "popularity": 5,
+   "styles": [
+    "modern",
+    "premium",
+    "beard",
+    "classic"
+   ]
+  },
+  {
+   "key": "nose_ear_wax",
+   "category": "grooming",
+   "name_el": "Κερί μύτης & αυτιών",
+   "name_en": "Nose & ear wax",
+   "description_el": "Αποτρίχωση μύτης και αυτιών με ζεστό κερί, γρήγορα και καθαρά.",
+   "description_en": "Nose and ear hair removal with warm wax, fast and clean.",
+   "duration_minutes": 10,
+   "price_min": 6,
+   "price_max": 8,
+   "buffer_after": 5,
+   "popularity": 4,
+   "styles": [
+    "premium",
+    "modern",
+    "beard"
+   ]
+  },
+  {
+   "key": "face_mask",
+   "category": "grooming",
+   "name_el": "Μάσκα προσώπου",
+   "name_en": "Face mask",
+   "description_el": "Καθαρισμός με peel-off μάσκα άνθρακα και ενυδάτωση στο τέλος.",
+   "description_en": "A cleanse with a charcoal peel-off mask and moisturizer at the end.",
+   "duration_minutes": 20,
+   "price_min": 12,
+   "price_max": 18,
+   "buffer_after": 5,
+   "popularity": 3,
+   "styles": [
+    "premium",
+    "modern"
+   ]
+  },
+  {
+   "key": "scalp_treatment",
+   "category": "grooming",
+   "name_el": "Θεραπεία τριχωτού κεφαλής",
+   "name_en": "Scalp treatment",
+   "description_el": "Απολέπιση, μασάζ και λοσιόν για ξηρό ή λιπαρό τριχωτό.",
+   "description_en": "Exfoliation, massage and a tonic for a dry or oily scalp.",
+   "duration_minutes": 30,
+   "price_min": 18,
+   "price_max": 28,
+   "buffer_after": 5,
+   "popularity": 3,
+   "styles": [
+    "premium",
+    "classic"
+   ]
+  },
+  {
+   "key": "wash_style",
+   "category": "grooming",
+   "name_el": "Λούσιμο & styling",
+   "name_en": "Wash & style",
+   "description_el": "Λούσιμο με μασάζ κεφαλής, στέγνωμα και styling με προϊόν της επιλογής σου.",
+   "description_en": "A wash with head massage, a blow-dry and styling with the product of your choice.",
+   "duration_minutes": 15,
+   "price_min": 6,
+   "price_max": 10,
+   "buffer_after": 0,
+   "popularity": 6,
+   "styles": [
+    "classic",
+    "modern",
+    "premium",
+    "family",
+    "budget",
+    "beard"
+   ]
+  },
+  {
+   "key": "grey_blending",
+   "category": "colour",
+   "name_el": "Grey blending",
+   "name_en": "Grey blending",
+   "description_el": "Ημιμόνιμο χρώμα που μειώνει τα γκρίζα χωρίς να τα εξαφανίζει.",
+   "description_en": "A semi-permanent color that softens grey without hiding it completely.",
+   "duration_minutes": 30,
+   "price_min": 18,
+   "price_max": 28,
+   "buffer_after": 10,
+   "popularity": 4,
+   "styles": [
+    "premium",
+    "modern",
+    "classic"
+   ]
+  },
+  {
+   "key": "hair_colour",
+   "category": "colour",
+   "name_el": "Βαφή μαλλιών",
+   "name_en": "Hair color",
+   "description_el": "Πλήρης βαφή μαλλιών σε μία απόχρωση, με λούσιμο και styling.",
+   "description_en": "A full single-shade hair color, with a wash and styling.",
+   "duration_minutes": 45,
+   "price_min": 25,
+   "price_max": 40,
+   "buffer_after": 10,
+   "popularity": 3,
+   "styles": [
+    "premium",
+    "modern"
+   ]
+  },
+  {
+   "key": "highlights",
+   "category": "colour",
+   "name_el": "Ανταύγειες",
+   "name_en": "Highlights",
+   "description_el": "Ανταύγειες με αλουμινόχαρτο ή σκουφάκι για φωτεινό, φυσικό αποτέλεσμα.",
+   "description_en": "Foil or cap highlights for a bright, natural result.",
+   "duration_minutes": 75,
+   "price_min": 35,
+   "price_max": 55,
+   "buffer_after": 10,
+   "popularity": 2,
+   "styles": [
+    "modern",
+    "premium"
+   ]
+  },
+  {
+   "key": "beard_colour",
+   "category": "colour",
+   "name_el": "Βαφή γενιών",
+   "name_en": "Beard color",
+   "description_el": "Βαφή γενιών σε απόχρωση που ταιριάζει με τα μαλλιά.",
+   "description_en": "A beard color in a shade that matches the hair.",
+   "duration_minutes": 25,
+   "price_min": 12,
+   "price_max": 18,
+   "buffer_after": 5,
+   "popularity": 3,
+   "styles": [
+    "beard",
+    "premium",
+    "modern"
+   ]
+  },
+  {
+   "key": "line_up",
+   "category": null,
+   "name_el": "Φρεσκάρισμα περιγράμματος",
+   "name_en": "Line-up refresh",
+   "description_el": "Καθάρισμα στο περίγραμμα, στον λαιμό και πίσω από τα αυτιά ανάμεσα σε δύο κουρέματα.",
+   "description_en": "A cleanup of the hairline, neck and behind the ears between two cuts.",
+   "duration_minutes": 15,
+   "price_min": 6,
+   "price_max": 10,
+   "buffer_after": 0,
+   "popularity": 5,
+   "styles": [
+    "modern",
+    "budget",
+    "classic"
+   ]
+  }
+ ],
+ "people": {
+  "male_first": [
+   {
+    "el": "Γιώργος",
+    "en": "giorgos"
+   },
+   {
+    "el": "Δημήτρης",
+    "en": "dimitris"
+   },
+   {
+    "el": "Νίκος",
+    "en": "nikos"
+   },
+   {
+    "el": "Κώστας",
+    "en": "kostas"
+   },
+   {
+    "el": "Γιάννης",
+    "en": "giannis"
+   },
+   {
+    "el": "Χρήστος",
+    "en": "christos"
+   },
+   {
+    "el": "Παναγιώτης",
+    "en": "panagiotis"
+   },
+   {
+    "el": "Βασίλης",
+    "en": "vasilis"
+   },
+   {
+    "el": "Θανάσης",
+    "en": "thanasis"
+   },
+   {
+    "el": "Μιχάλης",
+    "en": "michalis"
+   },
+   {
+    "el": "Βαγγέλης",
+    "en": "vangelis"
+   },
+   {
+    "el": "Σπύρος",
+    "en": "spyros"
+   },
+   {
+    "el": "Αντώνης",
+    "en": "antonis"
+   },
+   {
+    "el": "Ηλίας",
+    "en": "ilias"
+   },
+   {
+    "el": "Αλέξανδρος",
+    "en": "alexandros"
+   },
+   {
+    "el": "Στέλιος",
+    "en": "stelios"
+   },
+   {
+    "el": "Μανώλης",
+    "en": "manolis"
+   },
+   {
+    "el": "Πέτρος",
+    "en": "petros"
+   },
+   {
+    "el": "Θοδωρής",
+    "en": "thodoris"
+   },
+   {
+    "el": "Σταύρος",
+    "en": "stavros"
+   },
+   {
+    "el": "Άγγελος",
+    "en": "angelos"
+   },
+   {
+    "el": "Λευτέρης",
+    "en": "lefteris"
+   },
+   {
+    "el": "Αποστόλης",
+    "en": "apostolis"
+   },
+   {
+    "el": "Στάθης",
+    "en": "stathis"
+   },
+   {
+    "el": "Παύλος",
+    "en": "pavlos"
+   },
+   {
+    "el": "Τάσος",
+    "en": "tasos"
+   },
+   {
+    "el": "Φώτης",
+    "en": "fotis"
+   },
+   {
+    "el": "Μάριος",
+    "en": "marios"
+   },
+   {
+    "el": "Άρης",
+    "en": "aris"
+   },
+   {
+    "el": "Ορέστης",
+    "en": "orestis"
+   },
+   {
+    "el": "Λάμπρος",
+    "en": "lampros"
+   },
+   {
+    "el": "Νεκτάριος",
+    "en": "nektarios"
+   },
+   {
+    "el": "Πάνος",
+    "en": "panos"
+   },
+   {
+    "el": "Αριστείδης",
+    "en": "aristeidis"
+   },
+   {
+    "el": "Θεμιστοκλής",
+    "en": "themistoklis"
+   },
+   {
+    "el": "Ζαχαρίας",
+    "en": "zacharias"
+   },
+   {
+    "el": "Ιάσονας",
+    "en": "iasonas"
+   },
+   {
+    "el": "Οδυσσέας",
+    "en": "odysseas"
+   },
+   {
+    "el": "Φίλιππος",
+    "en": "filippos"
+   },
+   {
+    "el": "Ανδρέας",
+    "en": "andreas"
+   },
+   {
+    "el": "Μάρκος",
+    "en": "markos"
+   },
+   {
+    "el": "Λουκάς",
+    "en": "loukas"
+   },
+   {
+    "el": "Ματθαίος",
+    "en": "matthaios"
+   },
+   {
+    "el": "Άλκης",
+    "en": "alkis"
+   },
+   {
+    "el": "Ραφαήλ",
+    "en": "rafail"
+   },
+   {
+    "el": "Σωτήρης",
+    "en": "sotiris"
+   },
+   {
+    "el": "Τηλέμαχος",
+    "en": "tilemachos"
+   },
+   {
+    "el": "Χαράλαμπος",
+    "en": "charalampos"
+   },
+   {
+    "el": "Μπάμπης",
+    "en": "babis"
+   },
+   {
+    "el": "Σάκης",
+    "en": "sakis"
+   },
+   {
+    "el": "Νικηφόρος",
+    "en": "nikiforos"
+   },
+   {
+    "el": "Γρηγόρης",
+    "en": "grigoris"
+   },
+   {
+    "el": "Κυριάκος",
+    "en": "kyriakos"
+   },
+   {
+    "el": "Δανιήλ",
+    "en": "daniil"
+   },
+   {
+    "el": "Θύμιος",
+    "en": "thymios"
+   },
+   {
+    "el": "Μηνάς",
+    "en": "minas"
+   },
+   {
+    "el": "Στέφανος",
+    "en": "stefanos"
+   },
+   {
+    "el": "Σίμος",
+    "en": "simos"
+   },
+   {
+    "el": "Περικλής",
+    "en": "periklis"
+   },
+   {
+    "el": "Αχιλλέας",
+    "en": "achilleas"
+   },
+   {
+    "el": "Ηρακλής",
+    "en": "iraklis"
+   },
+   {
+    "el": "Προκόπης",
+    "en": "prokopis"
+   },
+   {
+    "el": "Μιλτιάδης",
+    "en": "miltiadis"
+   },
+   {
+    "el": "Αλκιβιάδης",
+    "en": "alkiviadis"
+   },
+   {
+    "el": "Κλεάνθης",
+    "en": "kleanthis"
+   },
+   {
+    "el": "Ερμής",
+    "en": "ermis"
+   },
+   {
+    "el": "Άγης",
+    "en": "agis"
+   },
+   {
+    "el": "Γεράσιμος",
+    "en": "gerasimos"
+   },
+   {
+    "el": "Διονύσης",
+    "en": "dionysis"
+   },
+   {
+    "el": "Χαρίλαος",
+    "en": "charilaos"
+   },
+   {
+    "el": "Παντελής",
+    "en": "pantelis"
+   },
+   {
+    "el": "Τιμόθεος",
+    "en": "timotheos"
+   },
+   {
+    "el": "Κοσμάς",
+    "en": "kosmas"
+   },
+   {
+    "el": "Λεωνίδας",
+    "en": "leonidas"
+   },
+   {
+    "el": "Σεραφείμ",
+    "en": "serafeim"
+   },
+   {
+    "el": "Αναστάσης",
+    "en": "anastasis"
+   },
+   {
+    "el": "Βύρωνας",
+    "en": "vyronas"
+   },
+   {
+    "el": "Αιμίλιος",
+    "en": "aimilios"
+   },
+   {
+    "el": "Λάζαρος",
+    "en": "lazaros"
+   },
+   {
+    "el": "Μάκης",
+    "en": "makis"
+   },
+   {
+    "el": "Τάκης",
+    "en": "takis"
+   },
+   {
+    "el": "Θωμάς",
+    "en": "thomas"
+   },
+   {
+    "el": "Ιωσήφ",
+    "en": "iosif"
+   },
+   {
+    "el": "Ζήσης",
+    "en": "zisis"
+   },
+   {
+    "el": "Αργύρης",
+    "en": "argyris"
+   },
+   {
+    "el": "Μάνος",
+    "en": "manos"
+   },
+   {
+    "el": "Ρωμανός",
+    "en": "romanos"
+   },
+   {
+    "el": "Στρατής",
+    "en": "stratis"
+   },
+   {
+    "el": "Παρασκευάς",
+    "en": "paraskevas"
+   },
+   {
+    "el": "Αλέκος",
+    "en": "alekos"
+   },
+   {
+    "el": "Φοίβος",
+    "en": "foivos"
+   },
+   {
+    "el": "Κίμωνας",
+    "en": "kimonas"
+   }
+  ],
+  "female_first": [
+   {
+    "el": "Μαρία",
+    "en": "maria"
+   },
+   {
+    "el": "Ελένη",
+    "en": "eleni"
+   },
+   {
+    "el": "Κατερίνα",
+    "en": "katerina"
+   },
+   {
+    "el": "Βάσω",
+    "en": "vaso"
+   },
+   {
+    "el": "Σοφία",
+    "en": "sofia"
+   },
+   {
+    "el": "Αγγελική",
+    "en": "angeliki"
+   },
+   {
+    "el": "Γεωργία",
+    "en": "georgia"
+   },
+   {
+    "el": "Δέσποινα",
+    "en": "despoina"
+   },
+   {
+    "el": "Ειρήνη",
+    "en": "eirini"
+   },
+   {
+    "el": "Χριστίνα",
+    "en": "christina"
+   },
+   {
+    "el": "Γιώτα",
+    "en": "giota"
+   },
+   {
+    "el": "Αναστασία",
+    "en": "anastasia"
+   },
+   {
+    "el": "Δήμητρα",
+    "en": "dimitra"
+   },
+   {
+    "el": "Ευαγγελία",
+    "en": "evangelia"
+   },
+   {
+    "el": "Κωνσταντίνα",
+    "en": "konstantina"
+   },
+   {
+    "el": "Ιωάννα",
+    "en": "ioanna"
+   },
+   {
+    "el": "Νικολέτα",
+    "en": "nikoleta"
+   },
+   {
+    "el": "Μαργαρίτα",
+    "en": "margarita"
+   },
+   {
+    "el": "Αλεξάνδρα",
+    "en": "alexandra"
+   },
+   {
+    "el": "Ζωή",
+    "en": "zoi"
+   },
+   {
+    "el": "Φωτεινή",
+    "en": "foteini"
+   },
+   {
+    "el": "Αθηνά",
+    "en": "athina"
+   },
+   {
+    "el": "Στέλλα",
+    "en": "stella"
+   },
+   {
+    "el": "Ευτυχία",
+    "en": "eftychia"
+   },
+   {
+    "el": "Χαρά",
+    "en": "chara"
+   },
+   {
+    "el": "Αφροδίτη",
+    "en": "afroditi"
+   },
+   {
+    "el": "Ναταλία",
+    "en": "natalia"
+   },
+   {
+    "el": "Θεοδώρα",
+    "en": "theodora"
+   },
+   {
+    "el": "Σταυρούλα",
+    "en": "stavroula"
+   },
+   {
+    "el": "Αργυρώ",
+    "en": "argyro"
+   },
+   {
+    "el": "Ρένα",
+    "en": "rena"
+   },
+   {
+    "el": "Λίνα",
+    "en": "lina"
+   },
+   {
+    "el": "Μυρτώ",
+    "en": "myrto"
+   },
+   {
+    "el": "Δανάη",
+    "en": "danai"
+   },
+   {
+    "el": "Ιφιγένεια",
+    "en": "ifigeneia"
+   },
+   {
+    "el": "Πηνελόπη",
+    "en": "pinelopi"
+   },
+   {
+    "el": "Άννα",
+    "en": "anna"
+   },
+   {
+    "el": "Ανθή",
+    "en": "anthi"
+   },
+   {
+    "el": "Άρτεμις",
+    "en": "artemis"
+   },
+   {
+    "el": "Βικτώρια",
+    "en": "viktoria"
+   },
+   {
+    "el": "Γαρυφαλλιά",
+    "en": "garyfallia"
+   },
+   {
+    "el": "Δάφνη",
+    "en": "dafni"
+   },
+   {
+    "el": "Έλλη",
+    "en": "elli"
+   },
+   {
+    "el": "Ευγενία",
+    "en": "evgenia"
+   },
+   {
+    "el": "Ηλέκτρα",
+    "en": "ilektra"
+   },
+   {
+    "el": "Θάλεια",
+    "en": "thaleia"
+   },
+   {
+    "el": "Ισμήνη",
+    "en": "ismini"
+   },
+   {
+    "el": "Καλλιόπη",
+    "en": "kalliopi"
+   },
+   {
+    "el": "Λαμπρινή",
+    "en": "lamprini"
+   },
+   {
+    "el": "Λυδία",
+    "en": "lydia"
+   },
+   {
+    "el": "Μαρίνα",
+    "en": "marina"
+   },
+   {
+    "el": "Μελίνα",
+    "en": "melina"
+   },
+   {
+    "el": "Νεφέλη",
+    "en": "nefeli"
+   },
+   {
+    "el": "Ξανθή",
+    "en": "xanthi"
+   },
+   {
+    "el": "Όλγα",
+    "en": "olga"
+   },
+   {
+    "el": "Ουρανία",
+    "en": "ourania"
+   },
+   {
+    "el": "Πολυξένη",
+    "en": "polyxeni"
+   },
+   {
+    "el": "Ραλλού",
+    "en": "rallou"
+   },
+   {
+    "el": "Σμαράγδα",
+    "en": "smaragda"
+   },
+   {
+    "el": "Τατιάνα",
+    "en": "tatiana"
+   },
+   {
+    "el": "Φαίδρα",
+    "en": "faidra"
+   },
+   {
+    "el": "Φανή",
+    "en": "fani"
+   },
+   {
+    "el": "Χρυσούλα",
+    "en": "chrysoula"
+   },
+   {
+    "el": "Ασπασία",
+    "en": "aspasia"
+   },
+   {
+    "el": "Αλίκη",
+    "en": "aliki"
+   },
+   {
+    "el": "Βαρβάρα",
+    "en": "varvara"
+   },
+   {
+    "el": "Ευανθία",
+    "en": "evanthia"
+   },
+   {
+    "el": "Θεανώ",
+    "en": "theano"
+   },
+   {
+    "el": "Ιουλία",
+    "en": "ioulia"
+   },
+   {
+    "el": "Κυριακή",
+    "en": "kyriaki"
+   },
+   {
+    "el": "Λητώ",
+    "en": "lito"
+   },
+   {
+    "el": "Ροδάνθη",
+    "en": "rodanthi"
+   },
+   {
+    "el": "Σταματία",
+    "en": "stamatia"
+   },
+   {
+    "el": "Ευρυδίκη",
+    "en": "evrydiki"
+   },
+   {
+    "el": "Αμαλία",
+    "en": "amalia"
+   },
+   {
+    "el": "Ματίνα",
+    "en": "matina"
+   },
+   {
+    "el": "Νίκη",
+    "en": "niki"
+   },
+   {
+    "el": "Ελπίδα",
+    "en": "elpida"
+   },
+   {
+    "el": "Χαρίκλεια",
+    "en": "charikleia"
+   }
+  ],
+  "surnames": [
+   {
+    "m_el": "Παπαδόπουλος",
+    "f_el": "Παπαδοπούλου",
+    "m_en": "papadopoulos",
+    "f_en": "papadopoulou"
+   },
+   {
+    "m_el": "Παπαδάκης",
+    "f_el": "Παπαδάκη",
+    "m_en": "papadakis",
+    "f_en": "papadaki"
+   },
+   {
+    "m_el": "Γεωργίου",
+    "f_el": "Γεωργίου",
+    "m_en": "georgiou",
+    "f_en": "georgiou"
+   },
+   {
+    "m_el": "Ιωαννίδης",
+    "f_el": "Ιωαννίδου",
+    "m_en": "ioannidis",
+    "f_en": "ioannidou"
+   },
+   {
+    "m_el": "Βλάχος",
+    "f_el": "Βλάχου",
+    "m_en": "vlachos",
+    "f_en": "vlachou"
+   },
+   {
+    "m_el": "Μαυρίδης",
+    "f_el": "Μαυρίδου",
+    "m_en": "mavridis",
+    "f_en": "mavridou"
+   },
+   {
+    "m_el": "Κωνσταντίνου",
+    "f_el": "Κωνσταντίνου",
+    "m_en": "konstantinou",
+    "f_en": "konstantinou"
+   },
+   {
+    "m_el": "Δημητρίου",
+    "f_el": "Δημητρίου",
+    "m_en": "dimitriou",
+    "f_en": "dimitriou"
+   },
+   {
+    "m_el": "Νικολάου",
+    "f_el": "Νικολάου",
+    "m_en": "nikolaou",
+    "f_en": "nikolaou"
+   },
+   {
+    "m_el": "Οικονόμου",
+    "f_el": "Οικονόμου",
+    "m_en": "oikonomou",
+    "f_en": "oikonomou"
+   },
+   {
+    "m_el": "Αθανασόπουλος",
+    "f_el": "Αθανασοπούλου",
+    "m_en": "athanasopoulos",
+    "f_en": "athanasopoulou"
+   },
+   {
+    "m_el": "Γεωργακόπουλος",
+    "f_el": "Γεωργακοπούλου",
+    "m_en": "georgakopoulos",
+    "f_en": "georgakopoulou"
+   },
+   {
+    "m_el": "Αντωνόπουλος",
+    "f_el": "Αντωνοπούλου",
+    "m_en": "antonopoulos",
+    "f_en": "antonopoulou"
+   },
+   {
+    "m_el": "Σταυρόπουλος",
+    "f_el": "Σταυροπούλου",
+    "m_en": "stavropoulos",
+    "f_en": "stavropoulou"
+   },
+   {
+    "m_el": "Ζαφειρόπουλος",
+    "f_el": "Ζαφειροπούλου",
+    "m_en": "zafeiropoulos",
+    "f_en": "zafeiropoulou"
+   },
+   {
+    "m_el": "Μιχαηλίδης",
+    "f_el": "Μιχαηλίδου",
+    "m_en": "michailidis",
+    "f_en": "michailidou"
+   },
+   {
+    "m_el": "Κατσαρός",
+    "f_el": "Κατσαρού",
+    "m_en": "katsaros",
+    "f_en": "katsarou"
+   },
+   {
+    "m_el": "Λαμπρόπουλος",
+    "f_el": "Λαμπροπούλου",
+    "m_en": "lampropoulos",
+    "f_en": "lampropoulou"
+   },
+   {
+    "m_el": "Ξενάκης",
+    "f_el": "Ξενάκη",
+    "m_en": "xenakis",
+    "f_en": "xenaki"
+   },
+   {
+    "m_el": "Τσακίρης",
+    "f_el": "Τσακίρη",
+    "m_en": "tsakiris",
+    "f_en": "tsakiri"
+   },
+   {
+    "m_el": "Μάρκου",
+    "f_el": "Μάρκου",
+    "m_en": "markou",
+    "f_en": "markou"
+   },
+   {
+    "m_el": "Ραφαηλίδης",
+    "f_el": "Ραφαηλίδου",
+    "m_en": "rafailidis",
+    "f_en": "rafailidou"
+   },
+   {
+    "m_el": "Αλεξίου",
+    "f_el": "Αλεξίου",
+    "m_en": "alexiou",
+    "f_en": "alexiou"
+   },
+   {
+    "m_el": "Σαββίδης",
+    "f_el": "Σαββίδου",
+    "m_en": "savvidis",
+    "f_en": "savvidou"
+   },
+   {
+    "m_el": "Θεοδωρόπουλος",
+    "f_el": "Θεοδωροπούλου",
+    "m_en": "theodoropoulos",
+    "f_en": "theodoropoulou"
+   },
+   {
+    "m_el": "Κοντός",
+    "f_el": "Κοντού",
+    "m_en": "kontos",
+    "f_en": "kontou"
+   },
+   {
+    "m_el": "Μπαλτάς",
+    "f_el": "Μπαλτά",
+    "m_en": "baltas",
+    "f_en": "balta"
+   },
+   {
+    "m_el": "Αναστασίου",
+    "f_el": "Αναστασίου",
+    "m_en": "anastasiou",
+    "f_en": "anastasiou"
+   },
+   {
+    "m_el": "Καραγιάννης",
+    "f_el": "Καραγιάννη",
+    "m_en": "karagiannis",
+    "f_en": "karagianni"
+   },
+   {
+    "m_el": "Πετρόπουλος",
+    "f_el": "Πετροπούλου",
+    "m_en": "petropoulos",
+    "f_en": "petropoulou"
+   },
+   {
+    "m_el": "Χριστοδούλου",
+    "f_el": "Χριστοδούλου",
+    "m_en": "christodoulou",
+    "f_en": "christodoulou"
+   },
+   {
+    "m_el": "Παπανικολάου",
+    "f_el": "Παπανικολάου",
+    "m_en": "papanikolaou",
+    "f_en": "papanikolaou"
+   },
+   {
+    "m_el": "Σιδηρόπουλος",
+    "f_el": "Σιδηροπούλου",
+    "m_en": "sidiropoulos",
+    "f_en": "sidiropoulou"
+   },
+   {
+    "m_el": "Τζαννετάκης",
+    "f_el": "Τζαννετάκη",
+    "m_en": "tzannetakis",
+    "f_en": "tzannetaki"
+   },
+   {
+    "m_el": "Ζερβός",
+    "f_el": "Ζερβού",
+    "m_en": "zervos",
+    "f_en": "zervou"
+   },
+   {
+    "m_el": "Λιάπης",
+    "f_el": "Λιάπη",
+    "m_en": "liapis",
+    "f_en": "liapi"
+   },
+   {
+    "m_el": "Μανωλάκης",
+    "f_el": "Μανωλάκη",
+    "m_en": "manolakis",
+    "f_en": "manolaki"
+   },
+   {
+    "m_el": "Φωτίου",
+    "f_el": "Φωτίου",
+    "m_en": "fotiou",
+    "f_en": "fotiou"
+   },
+   {
+    "m_el": "Κυριακίδης",
+    "f_el": "Κυριακίδου",
+    "m_en": "kyriakidis",
+    "f_en": "kyriakidou"
+   },
+   {
+    "m_el": "Βασιλείου",
+    "f_el": "Βασιλείου",
+    "m_en": "vasileiou",
+    "f_en": "vasileiou"
+   },
+   {
+    "m_el": "Αγγελόπουλος",
+    "f_el": "Αγγελοπούλου",
+    "m_en": "angelopoulos",
+    "f_en": "angelopoulou"
+   },
+   {
+    "m_el": "Πανταζής",
+    "f_el": "Πανταζή",
+    "m_en": "pantazis",
+    "f_en": "pantazi"
+   },
+   {
+    "m_el": "Ρήγας",
+    "f_el": "Ρήγα",
+    "m_en": "rigas",
+    "f_en": "riga"
+   },
+   {
+    "m_el": "Δρόσος",
+    "f_el": "Δρόσου",
+    "m_en": "drosos",
+    "f_en": "drosou"
+   },
+   {
+    "m_el": "Καλογεράκης",
+    "f_el": "Καλογεράκη",
+    "m_en": "kalogerakis",
+    "f_en": "kalogeraki"
+   },
+   {
+    "m_el": "Μαργαρίτης",
+    "f_el": "Μαργαρίτη",
+    "m_en": "margaritis",
+    "f_en": "margariti"
+   },
+   {
+    "m_el": "Γιαννακόπουλος",
+    "f_el": "Γιαννακοπούλου",
+    "m_en": "giannakopoulos",
+    "f_en": "giannakopoulou"
+   },
+   {
+    "m_el": "Μπέης",
+    "f_el": "Μπέη",
+    "m_en": "beis",
+    "f_en": "bei"
+   },
+   {
+    "m_el": "Κωστόπουλος",
+    "f_el": "Κωστοπούλου",
+    "m_en": "kostopoulos",
+    "f_en": "kostopoulou"
+   },
+   {
+    "m_el": "Μαυροειδής",
+    "f_el": "Μαυροειδή",
+    "m_en": "mavroeidis",
+    "f_en": "mavroeidi"
+   },
+   {
+    "m_el": "Χατζής",
+    "f_el": "Χατζή",
+    "m_en": "chatzis",
+    "f_en": "chatzi"
+   },
+   {
+    "m_el": "Μελετίου",
+    "f_el": "Μελετίου",
+    "m_en": "meletiou",
+    "f_en": "meletiou"
+   },
+   {
+    "m_el": "Σπανός",
+    "f_el": "Σπανού",
+    "m_en": "spanos",
+    "f_en": "spanou"
+   },
+   {
+    "m_el": "Λάμπρου",
+    "f_el": "Λάμπρου",
+    "m_en": "lamprou",
+    "f_en": "lamprou"
+   },
+   {
+    "m_el": "Ηλιόπουλος",
+    "f_el": "Ηλιοπούλου",
+    "m_en": "iliopoulos",
+    "f_en": "iliopoulou"
+   },
+   {
+    "m_el": "Αποστολίδης",
+    "f_el": "Αποστολίδου",
+    "m_en": "apostolidis",
+    "f_en": "apostolidou"
+   },
+   {
+    "m_el": "Πολυχρόνης",
+    "f_el": "Πολυχρόνη",
+    "m_en": "polychronis",
+    "f_en": "polychroni"
+   },
+   {
+    "m_el": "Νικολαΐδης",
+    "f_el": "Νικολαΐδου",
+    "m_en": "nikolaidis",
+    "f_en": "nikolaidou"
+   },
+   {
+    "m_el": "Ιωάννου",
+    "f_el": "Ιωάννου",
+    "m_en": "ioannou",
+    "f_en": "ioannou"
+   },
+   {
+    "m_el": "Αθανασίου",
+    "f_el": "Αθανασίου",
+    "m_en": "athanasiou",
+    "f_en": "athanasiou"
+   },
+   {
+    "m_el": "Θεοχάρης",
+    "f_el": "Θεοχάρη",
+    "m_en": "theocharis",
+    "f_en": "theochari"
+   },
+   {
+    "m_el": "Πέτρου",
+    "f_el": "Πέτρου",
+    "m_en": "petrou",
+    "f_en": "petrou"
+   },
+   {
+    "m_el": "Παύλου",
+    "f_el": "Παύλου",
+    "m_en": "pavlou",
+    "f_en": "pavlou"
+   },
+   {
+    "m_el": "Ευαγγέλου",
+    "f_el": "Ευαγγέλου",
+    "m_en": "evangelou",
+    "f_en": "evangelou"
+   },
+   {
+    "m_el": "Σταματίου",
+    "f_el": "Σταματίου",
+    "m_en": "stamatiou",
+    "f_en": "stamatiou"
+   },
+   {
+    "m_el": "Ηλιάδης",
+    "f_el": "Ηλιάδου",
+    "m_en": "iliadis",
+    "f_en": "iliadou"
+   },
+   {
+    "m_el": "Ζαχαρίου",
+    "f_el": "Ζαχαρίου",
+    "m_en": "zachariou",
+    "f_en": "zachariou"
+   },
+   {
+    "m_el": "Τριανταφύλλου",
+    "f_el": "Τριανταφύλλου",
+    "m_en": "triantafyllou",
+    "f_en": "triantafyllou"
+   },
+   {
+    "m_el": "Χατζηδάκης",
+    "f_el": "Χατζηδάκη",
+    "m_en": "chatzidakis",
+    "f_en": "chatzidaki"
+   },
+   {
+    "m_el": "Γιαννάκος",
+    "f_el": "Γιαννάκου",
+    "m_en": "giannakos",
+    "f_en": "giannakou"
+   },
+   {
+    "m_el": "Ρούσσος",
+    "f_el": "Ρούσσου",
+    "m_en": "roussos",
+    "f_en": "roussou"
+   },
+   {
+    "m_el": "Σταθάς",
+    "f_el": "Σταθά",
+    "m_en": "stathas",
+    "f_en": "statha"
+   },
+   {
+    "m_el": "Τζιόλας",
+    "f_el": "Τζιόλα",
+    "m_en": "tziolas",
+    "f_en": "tziola"
+   },
+   {
+    "m_el": "Μπακάλης",
+    "f_el": "Μπακάλη",
+    "m_en": "bakalis",
+    "f_en": "bakali"
+   },
+   {
+    "m_el": "Καρράς",
+    "f_el": "Καρρά",
+    "m_en": "karras",
+    "f_en": "karra"
+   },
+   {
+    "m_el": "Λεβέντης",
+    "f_el": "Λεβέντη",
+    "m_en": "leventis",
+    "f_en": "leventi"
+   },
+   {
+    "m_el": "Μουρτζούκος",
+    "f_el": "Μουρτζούκου",
+    "m_en": "mourtzoukos",
+    "f_en": "mourtzoukou"
+   },
+   {
+    "m_el": "Σκουλάς",
+    "f_el": "Σκουλά",
+    "m_en": "skoulas",
+    "f_en": "skoula"
+   },
+   {
+    "m_el": "Φραγκιαδάκης",
+    "f_el": "Φραγκιαδάκη",
+    "m_en": "frangiadakis",
+    "f_en": "frangiadaki"
+   },
+   {
+    "m_el": "Βογιατζής",
+    "f_el": "Βογιατζή",
+    "m_en": "vogiatzis",
+    "f_en": "vogiatzi"
+   },
+   {
+    "m_el": "Δασκαλάκης",
+    "f_el": "Δασκαλάκη",
+    "m_en": "daskalakis",
+    "f_en": "daskalaki"
+   },
+   {
+    "m_el": "Κουτσογιάννης",
+    "f_el": "Κουτσογιάννη",
+    "m_en": "koutsogiannis",
+    "f_en": "koutsogianni"
+   },
+   {
+    "m_el": "Παπαγεωργίου",
+    "f_el": "Παπαγεωργίου",
+    "m_en": "papageorgiou",
+    "f_en": "papageorgiou"
+   },
+   {
+    "m_el": "Χριστοφόρου",
+    "f_el": "Χριστοφόρου",
+    "m_en": "christoforou",
+    "f_en": "christoforou"
+   },
+   {
+    "m_el": "Σαρρής",
+    "f_el": "Σαρρή",
+    "m_en": "sarris",
+    "f_en": "sarri"
+   },
+   {
+    "m_el": "Τσολάκης",
+    "f_el": "Τσολάκη",
+    "m_en": "tsolakis",
+    "f_en": "tsolaki"
+   },
+   {
+    "m_el": "Αλεξανδρόπουλος",
+    "f_el": "Αλεξανδροπούλου",
+    "m_en": "alexandropoulos",
+    "f_en": "alexandropoulou"
+   },
+   {
+    "m_el": "Κουκουλάκης",
+    "f_el": "Κουκουλάκη",
+    "m_en": "koukoulakis",
+    "f_en": "koukoulaki"
+   },
+   {
+    "m_el": "Γκίκας",
+    "f_el": "Γκίκα",
+    "m_en": "gikas",
+    "f_en": "gika"
+   },
+   {
+    "m_el": "Ντόκος",
+    "f_el": "Ντόκου",
+    "m_en": "dokos",
+    "f_en": "dokou"
+   },
+   {
+    "m_el": "Μπουρνάζος",
+    "f_el": "Μπουρνάζου",
+    "m_en": "bournazos",
+    "f_en": "bournazou"
+   },
+   {
+    "m_el": "Ευθυμίου",
+    "f_el": "Ευθυμίου",
+    "m_en": "efthymiou",
+    "f_en": "efthymiou"
+   },
+   {
+    "m_el": "Αυγερινός",
+    "f_el": "Αυγερινού",
+    "m_en": "avgerinos",
+    "f_en": "avgerinou"
+   },
+   {
+    "m_el": "Ψαρράς",
+    "f_el": "Ψαρρά",
+    "m_en": "psarras",
+    "f_en": "psarra"
+   },
+   {
+    "m_el": "Ξυδάκης",
+    "f_el": "Ξυδάκη",
+    "m_en": "xydakis",
+    "f_en": "xydaki"
+   },
+   {
+    "m_el": "Θεοδωρίδης",
+    "f_el": "Θεοδωρίδου",
+    "m_en": "theodoridis",
+    "f_en": "theodoridou"
+   },
+   {
+    "m_el": "Κεχαγιάς",
+    "f_el": "Κεχαγιά",
+    "m_en": "kechagias",
+    "f_en": "kechagia"
+   },
+   {
+    "m_el": "Μανιάτης",
+    "f_el": "Μανιάτη",
+    "m_en": "maniatis",
+    "f_en": "maniati"
+   },
+   {
+    "m_el": "Σωτηρίου",
+    "f_el": "Σωτηρίου",
+    "m_en": "sotiriou",
+    "f_en": "sotiriou"
+   },
+   {
+    "m_el": "Κυριαζής",
+    "f_el": "Κυριαζή",
+    "m_en": "kyriazis",
+    "f_en": "kyriazi"
+   },
+   {
+    "m_el": "Πολίτης",
+    "f_el": "Πολίτη",
+    "m_en": "politis",
+    "f_en": "politi"
+   },
+   {
+    "m_el": "Δελής",
+    "f_el": "Δελή",
+    "m_en": "delis",
+    "f_en": "deli"
+   },
+   {
+    "m_el": "Ζαφειρίου",
+    "f_el": "Ζαφειρίου",
+    "m_en": "zafeiriou",
+    "f_en": "zafeiriou"
+   },
+   {
+    "m_el": "Μακρής",
+    "f_el": "Μακρή",
+    "m_en": "makris",
+    "f_en": "makri"
+   },
+   {
+    "m_el": "Λαζαρίδης",
+    "f_el": "Λαζαρίδου",
+    "m_en": "lazaridis",
+    "f_en": "lazaridou"
+   },
+   {
+    "m_el": "Χαραλαμπίδης",
+    "f_el": "Χαραλαμπίδου",
+    "m_en": "charalampidis",
+    "f_en": "charalampidou"
+   },
+   {
+    "m_el": "Βαρβέρης",
+    "f_el": "Βαρβέρη",
+    "m_en": "varveris",
+    "f_en": "varveri"
+   },
+   {
+    "m_el": "Αρβανίτης",
+    "f_el": "Αρβανίτη",
+    "m_en": "arvanitis",
+    "f_en": "arvaniti"
+   },
+   {
+    "m_el": "Καλαϊτζής",
+    "f_el": "Καλαϊτζή",
+    "m_en": "kalaitzis",
+    "f_en": "kalaitzi"
+   },
+   {
+    "m_el": "Γαλανός",
+    "f_el": "Γαλανού",
+    "m_en": "galanos",
+    "f_en": "galanou"
+   },
+   {
+    "m_el": "Στεφανίδης",
+    "f_el": "Στεφανίδου",
+    "m_en": "stefanidis",
+    "f_en": "stefanidou"
+   },
+   {
+    "m_el": "Ανδρέου",
+    "f_el": "Ανδρέου",
+    "m_en": "andreou",
+    "f_en": "andreou"
+   }
+  ]
+ },
+ "review_comments": {
+  "5": [
+   "Τέλειος, όπως πάντα!",
+   "Ο μάστορας ξέρει τι κάνει. Το καλύτερο fade που έχω κάνει ποτέ.",
+   "Πολύ καθαρός χώρος, φιλικά παιδιά και ακριβώς στην ώρα του ραντεβού.",
+   "Δέκα με τόνο.",
+   "Πήγα για πρώτη φορά μετά από σύσταση φίλου και δεν αλλάζω κουρείο. Άκουσε τι ήθελα και το έκανε ακόμα καλύτερο.",
+   "Το ξύρισμα με τη ζεστή πετσέτα αξίζει κάθε ευρώ.",
+   "Ο γιος μου φοβόταν τα κουρεία, αλλά εδώ έφυγε χαμογελαστός. Τεράστια υπομονή!",
+   "Άψογη δουλειά στα γένια.",
+   "Μπήκα στην ώρα μου, βγήκα σε μισή ώρα, τέλειο αποτέλεσμα.",
+   "Εξαιρετική εξυπηρέτηση, καφεδάκι και καλή κουβέντα.",
+   "Επιτέλους ένα κουρείο που καταλαβαίνει τα σγουρά μαλλιά.",
+   "Κορυφή!",
+   "Πηγαίνω χρόνια και δεν με έχει απογοητεύσει ούτε μία φορά.",
+   "Λεπτομέρεια σε κάθε γραμμή. Φαίνεται ότι αγαπάει τη δουλειά του.",
+   "Πολύ καλές τιμές για την ποιότητα που παίρνεις.",
+   "Το online ραντεβού δούλεψε άψογα και ήρθε και υπενθύμιση. Το κούρεμα, όπως πάντα, πολύ καλό.",
+   "Καθαριότητα, επαγγελματισμός, χαμόγελο.",
+   "Μου έφτιαξε το σχήμα στα γένια που ήθελα εδώ και μήνες.",
+   "Ήρθα με τον μπαμπά μου και φύγαμε και οι δύο ευχαριστημένοι.",
+   "Ό,τι καλύτερο έχει η γειτονιά.",
+   "Γρήγορος, προσεκτικός και πάντα στην ώρα του.",
+   "Το grey blending βγήκε τόσο φυσικό που δεν το κατάλαβε κανείς. Ακριβώς αυτό ήθελα.",
+   "Ωραία ατμόσφαιρα, καλή μουσική και κορυφαίο fade.",
+   "Πολύ ευγενικοί όλοι. Θα ξαναέρθω σίγουρα.",
+   "Από τα λίγα μέρη που σε ρωτάνε πριν κόψουν.",
+   "Πέντε αστέρια χωρίς δεύτερη σκέψη.",
+   "Τρεις εβδομάδες μετά και το κούρεμα φαίνεται ακόμα φρέσκο. Αυτό λέει πολλά.",
+   "Ο μάστορας είναι καλλιτέχνης.",
+   "Ήμουν στην πόλη για δουλειά και βρήκα ραντεβού την ίδια μέρα. Πολύ καλή εμπειρία.",
+   "Πάντα καθαρά εργαλεία και φρέσκες πετσέτες. Για μένα αυτό μετράει.",
+   "Τα παιδιά είναι φοβεροί. Σκέτη απόλαυση!",
+   "Το καλύτερο κούρεμα της ζωής μου και δεν υπερβάλλω."
+  ],
+  "4": [
+   "Πολύ καλό κούρεμα, απλώς περίμενα δέκα λεπτά παραπάνω.",
+   "Καλή δουλειά, λίγο ακριβό για τα δεδομένα της περιοχής.",
+   "Ευχάριστος χώρος και καλός μάστορας. Το πάρκινγκ είναι δύσκολο.",
+   "Ωραίο αποτέλεσμα στα γένια. Το κούρεμα ήθελε λίγη ακόμα δουλειά στο πίσω μέρος.",
+   "Πολύ καλό.",
+   "Σταθερή αξία, χωρίς εκπλήξεις.",
+   "Καλή εξυπηρέτηση, αλλά η μουσική ήταν πολύ δυνατή.",
+   "Το fade ήταν καθαρό. Θα ήθελα λίγο περισσότερο χρόνο στο styling.",
+   "Καλός, γρήγορος, φιλικός. Θα ξαναπάω.",
+   "Μου άρεσε, αν και το Σάββατο ήταν αρκετά γεμάτο.",
+   "Καλό κούρεμα σε λογική τιμή.",
+   "Όλα καλά, απλώς το ραντεβού ξεκίνησε με μικρή καθυστέρηση.",
+   "Ευγενικοί και επαγγελματίες. Λίγος θόρυβος από τον δρόμο.",
+   "Αρκετά καλό, πολύ κοντά σε αυτό που ζήτησα.",
+   "Ο νέος μπαρμπέρης τα πήγε πολύ καλά. Του λείπει λίγη εμπειρία στο ψαλίδι.",
+   "Ωραίο ξύρισμα, η πετσέτα θα μπορούσε να είναι πιο ζεστή.",
+   "Καθαρό μαγαζί, καλές τιμές.",
+   "Ικανοποιημένος. Θα ήθελα περισσότερες ελεύθερες ώρες το απόγευμα.",
+   "Καλή δουλειά στο παιδικό, αλλά ο μικρός βαρέθηκε λίγο στην αναμονή.",
+   "Πολύ καλός ο μάστορας. Το προϊόν για το styling δεν μου άρεσε τόσο."
+  ],
+  "3": [
+   "Μέτριο.",
+   "Το κούρεμα ήταν οκ, αλλά περίμενα 25 λεπτά παρότι είχα ραντεβού.",
+   "Τίποτα το ιδιαίτερο για αυτή την τιμή.",
+   "Καλός μπαρμπέρης, αλλά βιαστικός.",
+   "Δεν ήταν ακριβώς αυτό που ζήτησα, αλλά δεν ήταν και κακό.",
+   "Ο χώρος θέλει λίγο περισσότερη καθαριότητα.",
+   "Αξιοπρεπές κούρεμα, τίποτα παραπάνω.",
+   "Τα γένια βγήκαν λίγο ασύμμετρα. Το κούρεμα καλό.",
+   "Καλή εξυπηρέτηση, μέτριο αποτέλεσμα.",
+   "Λίγο ακριβό για αυτό που πήρα.",
+   "Άλλαξαν μπαρμπέρη χωρίς να με ενημερώσουν. Το αποτέλεσμα ήταν εντάξει.",
+   "Ούτε καλό ούτε κακό. Μάλλον θα δοκιμάσω και αλλού."
+  ],
+  "2": [
+   "Πολλή αναμονή και βιαστική δουλειά.",
+   "Το fade είχε εμφανή σκαλοπάτια. Δεν θα ξαναπάω σύντομα.",
+   "Με χρέωσαν περισσότερα από την τιμή που έγραφε η εφαρμογή.",
+   "Δεν άκουσε τι ζήτησα και το έκοψε πολύ πιο κοντά.",
+   "Βρώμικες πετσέτες και τρίχες παντού στον πάγκο.",
+   "Ήρθα στην ώρα μου και με έβαλαν μετά από δύο άλλους.",
+   "Αγενής συμπεριφορά στο ταμείο.",
+   "Το ξύρισμα μου άφησε ερεθισμό για τρεις μέρες."
+  ],
+  "1": [
+   "Απαράδεκτο.",
+   "Ακύρωσαν το ραντεβού μου μία ώρα πριν, χωρίς καμία εξήγηση.",
+   "Το χειρότερο κούρεμα που έχω κάνει. Χρειάστηκε να πάω αλλού για διόρθωση.",
+   "Περίμενα 40 λεπτά και τελικά έφυγα χωρίς κούρεμα.",
+   "Με έκοψε στο αυτί με το ξυράφι και ούτε μια συγγνώμη.",
+   "Βρήκα κλειστό ενώ είχα επιβεβαιωμένο ραντεβού.",
+   "Καμία σχέση με τις φωτογραφίες. Δεν το προτείνω σε κανέναν.",
+   "Αγένεια και κακή δουλειά. Ποτέ ξανά."
+  ]
+ },
+ "review_comments_en": {
+  "5": [
+   "Best fade I have had in Athens. Booked again on the spot.",
+   "Great barber, friendly team and spotless shop.",
+   "The hot towel shave was worth every euro.",
+   "Walked in on time, walked out looking sharp. Perfect.",
+   "Visiting from abroad and found a same-day slot. Excellent cut and great coffee.",
+   "He actually listened to what I wanted. Rare and appreciated.",
+   "Top notch.",
+   "My son was nervous, but the barber was so patient. We will be back."
+  ],
+  "4": [
+   "Very good cut, waited about ten minutes past my slot.",
+   "Solid barber, a bit pricey for the area.",
+   "Nice place and good work on the beard. Parking is hard.",
+   "Good fade, the styling could have been better.",
+   "Friendly staff and a clean shop. Music was a little loud."
+  ],
+  "3": [
+   "Okay cut, nothing special.",
+   "Decent result, but I waited 20 minutes despite booking.",
+   "Fine, but a bit rushed."
+  ]
+ },
+ "customer_notes": [
+  "Προτιμά ψαλίδι, όχι μηχανή.",
+  "Αλλεργία σε προϊόντα με άρωμα.",
+  "Ευαίσθητο δέρμα στον λαιμό. Χρήση αφρού για ευαίσθητες επιδερμίδες.",
+  "Fade στο 0 στα πλάγια, 3 εκατοστά επάνω.",
+  "Έρχεται κάθε τρεις εβδομάδες, συνήθως Πέμπτη απόγευμα.",
+  "Δεν θέλει συζήτηση κατά τη διάρκεια του κουρέματος.",
+  "Προτιμά τον ίδιο μπαρμπέρη σε κάθε ραντεβού.",
+  "Συνοδεύεται συχνά από τον γιο του, 8 ετών.",
+  "Χωρίστρα δεξιά.",
+  "Σγουρά μαλλιά, κούρεμα μόνο σε βρεγμένα μαλλιά.",
+  "Ιστορικό ακυρώσεων την τελευταία στιγμή. Τηλεφωνική επιβεβαίωση την προηγούμενη μέρα.",
+  "Πληρώνει πάντα με κάρτα.",
+  "Μόνο ματ πομάδα, όχι τζελ.",
+  "Βαφή γενιών στην απόχρωση 4.0, όχι πιο σκούρα.",
+  "Ουλή στο πίσω μέρος του κεφαλιού. Προσοχή με τη μηχανή.",
+  "Μιλά μόνο αγγλικά.",
+  "Φοιτητής, δικαιούται φοιτητική τιμή με το πάσο.",
+  "Παίρνει αντιπηκτικά. Όχι ξύρισμα με ξυράφι.",
+  "Θέλει πάντα ζεστή πετσέτα στο τέλος.",
+  "Αραίωση στην κορυφή. Πρόταση για θεραπεία τριχωτού στο επόμενο ραντεβού.",
+  "Τακτικός πελάτης από το 2015.",
+  "Προτιμά πρωινά ραντεβού, πριν από τις 10:00.",
+  "Γένια σε σχήμα boxed, με χαμηλή γραμμή στο μάγουλο.",
+  "Ευαισθησία στο κερί. Αποτρίχωση μόνο με ψαλιδάκι.",
+  "Βαρηκοΐα στο αριστερό αυτί. Επικοινωνία από τη δεξιά πλευρά."
+ ],
+ "internal_notes": [
+  "Φέρνει τον γιο του, 2ο ραντεβού στη σειρά.",
+  "Ζήτησε αλλαγή σε fade. Χρειάζονται επιπλέον 10 λεπτά.",
+  "Ο πελάτης ενημερώθηκε για καθυστέρηση 15 λεπτών.",
+  "Δωροκάρτα 30€. Αφαίρεση από το υπόλοιπο.",
+  "Πρώτη επίσκεψη, σύσταση από τακτικό πελάτη.",
+  "Έχει πληρωθεί προκαταβολικά.",
+  "Πιθανή καθυστέρηση λόγω του προηγούμενου ραντεβού με βαφή.",
+  "Πρόταση για το πακέτο κούρεμα & γένια.",
+  "Ζητήθηκε τιμολόγιο με ΑΦΜ εταιρείας.",
+  "Γαμπρός, ο γάμος είναι το Σάββατο. Σήμερα δοκιμαστικό.",
+  "Μεταφέρθηκε από την Τρίτη λόγω ασθένειας του μπαρμπέρη.",
+  "Διόρθωση χωρίς χρέωση.",
+  "Ζητήθηκε λάδι για γένια. Να είναι έτοιμο στο ταμείο.",
+  "Δεύτερη κλήση για επιβεβαίωση χωρίς απάντηση.",
+  "Το παιδί είναι ανήσυχο. Ψαλίδι αντί για μηχανή.",
+  "Ραντεβού για φωτογράφιση portfolio.",
+  "10η επίσκεψη. Έκπτωση 10%.",
+  "Έλεγχος απόχρωσης πριν από την εφαρμογή της βαφής.",
+  "Κλείστηκε τηλεφωνικά από τη σύζυγο.",
+  "Έρχεται με πατερίτσες. Η πρώτη θέση πρέπει να είναι ελεύθερη."
+ ],
+ "booking_notes": [
+  "Θα αργήσω ίσως 5 λεπτά.",
+  "Θέλω το ίδιο κούρεμα με την προηγούμενη φορά.",
+  "Έρχομαι με τον γιο μου, είναι 6 χρονών.",
+  "Πρώτη φορά για fade, θέλω κάτι όχι πολύ κοντό.",
+  "Μπορώ να πληρώσω με κάρτα;",
+  "Έχω ευαίσθητο δέρμα στον λαιμό.",
+  "Αν γίνεται, με τον Γιώργο.",
+  "Θα φέρω φωτογραφία με αυτό που θέλω.",
+  "Θέλω να κρατήσω το μήκος επάνω.",
+  "Έχω γάμο το Σάββατο, θέλω κάτι κλασικό και καθαρό.",
+  "Μόνο ψαλίδι, ευχαριστώ.",
+  "Στα γένια μόνο φρεσκάρισμα, όχι κόντεμα.",
+  "Έρχομαι από τη δουλειά, ίσως φτάσω λίγο νωρίτερα.",
+  "Είμαι φοιτητής, θα έχω μαζί το πάσο.",
+  "Δεν μιλάω καλά ελληνικά, English is fine.",
+  "Έχει αραιώσει λίγο η κορυφή, θα ήθελα μια συμβουλή.",
+  "Ο πατέρας μου είναι 82 και χρειάζεται βοήθεια στα σκαλιά.",
+  "Θέλω να δοκιμάσω grey blending για πρώτη φορά.",
+  "Αν αργήσω λόγω πάρκινγκ, θα πάρω τηλέφωνο.",
+  "Χωρίς προϊόν στο τέλος, ευχαριστώ."
+ ],
+ "cancellation_reasons_customer": [
+  "Αρρώστησα.",
+  "Μου προέκυψε κάτι στη δουλειά.",
+  "Δεν προλαβαίνω, θα κλείσω άλλη μέρα.",
+  "Πρέπει να ταξιδέψω απρόοπτα.",
+  "Το παιδί έχει πυρετό.",
+  "Έκλεισα κατά λάθος λάθος ώρα.",
+  "Χάλασε το αυτοκίνητο.",
+  "Θέλω να κλείσω με άλλον μπαρμπέρη.",
+  "Έχει απεργία στα μέσα μεταφοράς και δεν θα φτάσω.",
+  "Βρήκα πιο κοντινή ώρα αλλού.",
+  "Οικογενειακός λόγος.",
+  "Έκλεισα δύο φορές το ίδιο ραντεβού."
+ ],
+ "cancellation_reasons_shop": [
+  "Ασθένεια του μπαρμπέρη.",
+  "Βλάβη στον εξοπλισμό.",
+  "Διακοπή ρεύματος στο κατάστημα.",
+  "Διπλή κράτηση στην ίδια ώρα.",
+  "Έκτακτο κλείσιμο του καταστήματος.",
+  "Δεν υπήρξε επιβεβαίωση από τον πελάτη.",
+  "Αλλαγή ωραρίου λόγω αργίας.",
+  "Υδραυλική βλάβη στον χώρο.",
+  "Ο μπαρμπέρης δεν είναι διαθέσιμος λόγω εκπαίδευσης.",
+  "Ακύρωση κατόπιν τηλεφωνικού αιτήματος του πελάτη."
+ ],
+ "photo_alt": {
+  "interior": [
+   {
+    "el": "Τρεις vintage καρέκλες κουρείου μπροστά σε μεγάλους καθρέφτες με ξύλινο πλαίσιο",
+    "en": "Three vintage barber chairs in front of large wood-framed mirrors"
+   },
+   {
+    "el": "Χώρος αναμονής με δερμάτινο καναπέ και ράφι με περιοδικά",
+    "en": "Waiting area with a leather sofa and a magazine shelf"
+   },
+   {
+    "el": "Πάγκος εργασίας με μηχανές, χτένες και μπουκάλια κολόνιας",
+    "en": "Work counter with clippers, combs and cologne bottles"
+   },
+   {
+    "el": "Φωτεινό κουρείο με τοίχο από τούβλα και φυτά",
+    "en": "Bright barbershop with a brick wall and plants"
+   },
+   {
+    "el": "Μπαρ καφέ στην είσοδο του κουρείου",
+    "en": "Coffee bar at the entrance of the barbershop"
+   },
+   {
+    "el": "Λουτήρας με μαύρη κεραμική λεκάνη και πετσέτες στη σειρά",
+    "en": "Wash station with a black ceramic basin and stacked towels"
+   },
+   {
+    "el": "Ράφι με προϊόντα για μαλλιά και γένια",
+    "en": "Shelf with hair and beard products"
+   },
+   {
+    "el": "Κουρείο με φωτισμό νέον και βιομηχανικό ταβάνι",
+    "en": "Barbershop with neon lighting and an industrial ceiling"
+   },
+   {
+    "el": "Γωνιά για παιδιά με παιχνίδια και καρέκλα σε σχήμα αυτοκινήτου",
+    "en": "Kids' corner with toys and a car-shaped chair"
+   },
+   {
+    "el": "Ρεσεψιόν με ταμείο και λίστα τιμών στον τοίχο",
+    "en": "Reception desk with a till and a price list on the wall"
+   }
+  ],
+  "work": [
+   {
+    "el": "Skin fade με καθαρή μετάβαση από το δέρμα στο μήκος",
+    "en": "Skin fade with a clean transition from skin to length"
+   },
+   {
+    "el": "Κλασικό κούρεμα με χωρίστρα στο πλάι",
+    "en": "Classic side-part haircut"
+   },
+   {
+    "el": "Περιποιημένα γένια με καθαρές γραμμές στο μάγουλο",
+    "en": "Groomed beard with sharp cheek lines"
+   },
+   {
+    "el": "Textured crop με ματ styling",
+    "en": "Textured crop with matte styling"
+   },
+   {
+    "el": "Παιδικό κούρεμα με κοντά πλάγια",
+    "en": "Kids' haircut with short sides"
+   },
+   {
+    "el": "Σχέδιο με ξυράφι πάνω σε fade",
+    "en": "Razor design over a fade"
+   },
+   {
+    "el": "Grey blending σε κοντό κούρεμα",
+    "en": "Grey blending on a short haircut"
+   },
+   {
+    "el": "Buzz cut με line-up στο μέτωπο",
+    "en": "Buzz cut with a forehead line-up"
+   },
+   {
+    "el": "Μακριά μαλλιά με κλιμάκωση και φυσικό styling",
+    "en": "Layered long hair with natural styling"
+   },
+   {
+    "el": "Μακριά γένια μετά από θεραπεία με λάδι",
+    "en": "Long beard after an oil treatment"
+   }
+  ],
+  "detail": [
+   {
+    "el": "Ξυράφι και πινέλο ξυρίσματος σε μαρμάρινο πάγκο",
+    "en": "Straight razor and shaving brush on a marble counter"
+   },
+   {
+    "el": "Ζεστή πετσέτα στο πρόσωπο πελάτη πριν από το ξύρισμα",
+    "en": "Hot towel on a customer's face before a shave"
+   },
+   {
+    "el": "Μηχανή κουρέματος σε κοντινό πλάνο κατά τη διάρκεια fade",
+    "en": "Close-up of clippers during a fade"
+   },
+   {
+    "el": "Ψαλίδι και χτένα σε κοντινό πλάνο",
+    "en": "Close-up of scissors and comb"
+   },
+   {
+    "el": "Λάδι για γένια σε γυάλινο μπουκάλι με σταγονόμετρο",
+    "en": "Beard oil in a glass dropper bottle"
+   },
+   {
+    "el": "Ζεστός αφρός σε κεραμικό μπολ",
+    "en": "Warm lather in a ceramic bowl"
+   },
+   {
+    "el": "Χέρια μπαρμπέρη κατά το σχήμα γενιών",
+    "en": "Barber's hands while shaping a beard"
+   },
+   {
+    "el": "Πομάδα για μαλλιά σε ανοιχτό μεταλλικό κουτί",
+    "en": "Hair pomade in an open metal tin"
+   }
+  ],
+  "exterior": [
+   {
+    "el": "Πρόσοψη κουρείου με τζαμαρία και κόκκινη-λευκή στήλη",
+    "en": "Barbershop front with a glass window and a red-and-white pole"
+   },
+   {
+    "el": "Είσοδος κουρείου σε νεοκλασικό κτίριο",
+    "en": "Barbershop entrance in a neoclassical building"
+   },
+   {
+    "el": "Πινακίδα του κουρείου πάνω από την πόρτα το βράδυ",
+    "en": "Barbershop sign above the door at night"
+   },
+   {
+    "el": "Κουρείο σε πεζόδρομο με τραπεζάκια απέναντι",
+    "en": "Barbershop on a pedestrian street with cafe tables opposite"
+   }
+  ]
+ },
+ "custom_roles": [
+  {
+   "name": "Ρεσεψιόν",
+   "description": "Διαχείριση ραντεβού, υποδοχή πελατών και πληρωμές στο ταμείο. Χωρίς πρόσβαση στις ρυθμίσεις του καταστήματος και στις αναφορές εσόδων."
+  },
+  {
+   "name": "Μαθητευόμενος",
+   "description": "Προβολή του προσωπικού προγράμματος και των ραντεβού που του ανατίθενται. Χωρίς δικαίωμα αλλαγής σε τιμές, υπηρεσίες ή προσωπικό."
+  }
+ ]
+}
